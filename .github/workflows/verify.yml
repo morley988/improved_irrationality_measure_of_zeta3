@@ -1,0 +1,88 @@
+name: Lean build and hybrid verification
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'verification/**'
+      - '.github/workflows/verify.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 120
+    env:
+      LEAN_NUM_THREADS: '2'
+    defaults:
+      run:
+        shell: bash
+        working-directory: verification/zeta5
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - name: Verify published archive integrity
+        run: |
+          mkdir -p "$RUNNER_TEMP/zeta3-verification"
+          python3 - <<'PY'
+          import hashlib, json
+          from pathlib import Path
+          root = Path("..")
+          files = json.loads((root / "FILE_MANIFEST.json").read_text())["files"]
+          for name, info in files.items():
+              data = (root / name).read_bytes()
+              assert len(data) == info["bytes"], name
+              assert hashlib.sha256(data).hexdigest() == info["sha256"], name
+          print(f"PASS: {len(files)} archived checkpoint hashes")
+          PY
+          git rev-parse HEAD | tee "$RUNNER_TEMP/zeta3-verification/commit.txt"
+      - name: Install pinned Lean and numerical runtime
+        run: |
+          curl --fail --location --retry 3 --silent --show-error \
+            https://github.com/leanprover/lean4/releases/download/v4.33.1/lean-4.33.1-linux.tar.zst \
+            -o "$RUNNER_TEMP/lean.tar.zst"
+          tar --zstd -xf "$RUNNER_TEMP/lean.tar.zst" -C "$RUNNER_TEMP"
+          echo "$RUNNER_TEMP/lean-4.33.1-linux/bin" >> "$GITHUB_PATH"
+          python3 -m venv zeta3_certificates/.venv
+          zeta3_certificates/.venv/bin/python -m pip install -r zeta3_certificates/requirements.txt
+      - name: Fetch pinned dependencies and upstream build caches
+        run: |
+          lake -f lakefile.zeta3.toml exe cache get 2>&1 | tee "$RUNNER_TEMP/zeta3-verification/cache.log"
+          python3 - <<'PY'
+          import json, subprocess
+          from pathlib import Path
+          packages = json.loads(Path("lake-manifest.json").read_text())["packages"]
+          verified = []
+          for pkg in packages:
+              assert pkg["type"] == "git", pkg["name"]
+              path = Path(".lake/packages") / pkg["name"]
+              actual = subprocess.check_output(["git", "-C", str(path), "rev-parse", "HEAD"], text=True).strip()
+              assert actual == pkg["rev"], (pkg["name"], actual, pkg["rev"])
+              subprocess.run(["git", "-C", str(path), "diff", "--exit-code", "HEAD"], check=True)
+              verified.append({"name": pkg["name"], "revision": actual})
+          import os
+          (Path(os.environ["RUNNER_TEMP"]) / "zeta3-verification/dependencies.json").write_text(json.dumps(verified, indent=2) + "\n")
+          print(f"PASS: {len(verified)} pinned dependency revisions and tracked sources")
+          PY
+      - name: Full Lean library and endpoint build
+        run: |
+          lake -f lakefile.zeta3.toml build Zeta5 Zeta3 Zeta3.FinalAudit Zeta3.Hybrid.Verified 2>&1 | tee "$RUNNER_TEMP/zeta3-verification/build.log"
+      - name: Certificate and verification-gate tests
+        run: |
+          zeta3_certificates/.venv/bin/python zeta3_certificates/test_certificates.py 2>&1 | tee "$RUNNER_TEMP/zeta3-verification/certificate-tests.log"
+          zeta3_certificates/.venv/bin/python zeta3_certificates/test_hybrid_gate.py 2>&1 | tee "$RUNNER_TEMP/zeta3-verification/gate-tests.log"
+      - name: Fresh numerical replay and trust-zero axiom audits
+        run: |
+          zeta3_certificates/.venv/bin/python zeta3_certificates/verify_hybrid.py \
+            --toolchain-bin "$RUNNER_TEMP/lean-4.33.1-linux/bin" \
+            --output-dir "$RUNNER_TEMP/zeta3-verification/replay" \
+            2>&1 | tee "$RUNNER_TEMP/zeta3-verification/replay.log"
+          git diff --exit-code
+          git diff --cached --exit-code
+      - name: Retain fresh verification evidence
+        if: always()
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
+        with:
+          name: zeta3-verification-${{ github.sha }}
+          path: ${{ runner.temp }}/zeta3-verification/
+          if-no-files-found: error
+          retention-days: 90
