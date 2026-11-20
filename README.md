@@ -18,10 +18,6 @@ using asymmetric factorial-window determinants, prime-adic divisibility estimate
 
 The manuscript includes historical context, the mathematical argument, and a discussion of reproducibility and the hybrid Lean formalization.
 
-## Historical comparison
-
-Table 1 and the introduction cite [Jorge V. Romero’s 14 October preprint](https://doi.org/10.5281/zenodo.23378129). Romero’s bound of 5.513747 follows Niedbala Giraudin’s 5.5138800 and precedes the 5.4197 reported by Leibtag and collaborators.
-
 ## Verification and replay
 
 The [Lean checkpoint](verification/README.txt) contains the Lean 4.33.1 project, its pinned dependency manifest, the finite witnesses, the checkers, the build logs and the axiom audits. The mathematical reduction is kernel-checked. The archived audit of the final theorem lists eight additional finite assumptions. Seven are interval inequalities checked with Arb, and the eighth is a Boolean evaluated by running the Lean arithmetic checker over 5,949 cells.
