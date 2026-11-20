@@ -1,0 +1,81 @@
+{
+  "parameters": {
+    "s1": "2/25",
+    "s2": "8/25",
+    "delta": "51/50",
+    "u": "1000001/1000000",
+    "T": "17/125",
+    "Tcap": "7/50",
+    "degree_rate": "17/25"
+  },
+  "interval_decimal_precision": 45,
+  "method": "Directed interval arithmetic; checked rational root brackets; monotone Riemann sums; rational midpoint angular charges.",
+  "physical_support_endpoint": {
+    "lower": "911737892141/1000000000000",
+    "upper": "455868946081/500000000000",
+    "decimal_lower": 0.911737892141,
+    "decimal_upper": 0.911737892162
+  },
+  "analytic_panels": 8192,
+  "analytic_lower": {
+    "lower": "300854183181/62500000000",
+    "upper": "962733386201/200000000000",
+    "decimal_lower": 4.813666930896,
+    "decimal_upper": 4.813666931005
+  },
+  "linear_panels": 2048,
+  "linear_coefficient": "3835733171/31250000000",
+  "linear_integral_lower": {
+    "lower": "3835733171/31250000000",
+    "upper": "61371730743/500000000000",
+    "decimal_lower": 0.122743461472,
+    "decimal_upper": 0.122743461486
+  },
+  "angular_panels": 128,
+  "angular_node_rule": "equally spaced rational midpoints on [s1+s2,1]",
+  "angular_charge_weight": "3/1280",
+  "angular_endpoint_cap": {
+    "lower": "15905310273/50000000000",
+    "upper": "318106205481/1000000000000",
+    "decimal_lower": 0.31810620546,
+    "decimal_upper": 0.318106205481
+  },
+  "physical_penalty": {
+    "lower": "91379637281/500000000000",
+    "upper": "182759274613/1000000000000",
+    "decimal_lower": 0.182759274562,
+    "decimal_upper": 0.182759274613
+  },
+  "response_panels": 1024,
+  "response_integral": {
+    "lower": "953163595447/1000000000000",
+    "upper": "953527829851/1000000000000",
+    "decimal_lower": 0.953163595447,
+    "decimal_upper": 0.953527829851
+  },
+  "response_integral_upper": "953527829851/1000000000000",
+  "simple_response_upper": "191284115113/200000000000",
+  "simple_envelope_at_T": {
+    "lower": "6545408942519/1000000000000",
+    "upper": "6545408942957/1000000000000",
+    "decimal_lower": 6.545408942519,
+    "decimal_upper": 6.545408942957
+  },
+  "envelope_positive_lower": "6",
+  "arithmetic_upper": "1926282169226183949/500000000000000000",
+  "analytic_certified_lower": "300854183181/62500000000",
+  "gap_lower": "480551296221816051/500000000000000000",
+  "decisive_margin_lower": "3787381296316051/500000000000000000",
+  "decisive_margin_decimal": 0.007574762592632102,
+  "simple_decisive_margin_lower": "2341008439316051/500000000000000000",
+  "simple_decisive_margin_decimal": 0.004682016878632102,
+  "transfer_bound_rational": "2225439040605380000/447428816560392051",
+  "transfer_bound_decimal": 4.973839319768086,
+  "announced_measure_bound": "2487/500",
+  "verified_root_brackets": 13314,
+  "max_root_bracket_width": "1/50000000000",
+  "integrated_envelope_target": "5",
+  "main_envelope": "Gamma(delta-t)+F(t); no modified physical equilibrium or Green-function refinement required",
+  "passed": true,
+  "wall_seconds": 22.111021995544434
+}

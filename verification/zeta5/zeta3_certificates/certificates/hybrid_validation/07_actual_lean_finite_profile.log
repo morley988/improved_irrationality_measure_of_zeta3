@@ -1,0 +1,2 @@
+PASS: 5949 cells; exact Lean runtime coverage, area, floor guards, parity choices, and affine branches.
+Trust boundary: this execution is external numerical evidence, not a Lean kernel proof of arithmeticFiniteCheck = true.

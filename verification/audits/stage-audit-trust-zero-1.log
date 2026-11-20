@@ -1,0 +1,32 @@
+'Zeta3.Construction.Rational.realHankel_nullity_le_two' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Zeta3.Construction.Rational.windowIntegerPolynomial_rootMultiplicity_le_two' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Zeta3.Construction.windowIntegerPolynomial_natDegree_le_effectivePoles' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Zeta3.Construction.Features.reducedRestrictionMatrix_rank' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Zeta3.Construction.Features.firstKernelTopMap_finrank' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Zeta3.Analysis.CertificateResponse.actual_contour_exponent_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Zeta3.Analysis.CertificateResponse.exists_actual_trial_circle_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Zeta3.Analysis.CertificateResponse.exists_actual_trial_norm_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Zeta3.Analysis.CertificateResponse.exists_actual_trial_subspace' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Zeta3.Analysis.symmetric_eigenvalue_le_of_codimension' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Zeta3.Analysis.CertificateResponse.response_continuousAt_cutoff' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Zeta3.Analysis.windowIntegerPolynomial_response_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Zeta3.Analysis.exists_certified_integer_rate_error' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Zeta3.Endpoint.approximation_exponent_le_target_of_actual_rates' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Zeta3.Certificate.FiniteNumericalEvidence.linear' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Zeta3.Certificate.FiniteNumericalEvidence.response' depends on axioms: [propext, Classical.choice, Quot.sound]

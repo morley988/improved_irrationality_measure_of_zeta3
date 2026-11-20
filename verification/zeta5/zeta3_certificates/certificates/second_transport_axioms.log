@@ -1,0 +1,4 @@
+'Zeta3.Arithmetic.two_kernel_lower_of_residue_bilinear' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Zeta3.Arithmetic.normalizedCentralWindow_second_residue' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Zeta3.Arithmetic.scaledCentralPencil_second_form' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Zeta3.Arithmetic.unscaledCentralPencil_second_bound_of_rank' depends on axioms: [propext, Classical.choice, Quot.sound]

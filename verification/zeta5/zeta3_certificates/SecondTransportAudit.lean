@@ -1,0 +1,5 @@
+import Zeta3.Arithmetic.SecondTransportActual
+#print axioms Zeta3.Arithmetic.two_kernel_lower_of_residue_bilinear
+#print axioms Zeta3.Arithmetic.normalizedCentralWindow_second_residue
+#print axioms Zeta3.Arithmetic.scaledCentralPencil_second_form
+#print axioms Zeta3.Arithmetic.unscaledCentralPencil_second_bound_of_rank

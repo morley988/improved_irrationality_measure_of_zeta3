@@ -1,0 +1,379 @@
+{
+  "arb_replays": {
+    "fresh_256": {
+      "distinct_roots": 12180,
+      "final_rational_expression": "2225439040605380000/447428816560392051",
+      "passed": true,
+      "record_counts": {
+        "angular_charge": 128,
+        "finite_sum": 3,
+        "guard_evaluation": 2,
+        "header": 1,
+        "response_sample": 1025,
+        "root_bracket": 12180,
+        "sample": 10240,
+        "target_checks": 1
+      },
+      "scope": "Exact data consistency, not independent proof of Arb's real-function enclosures.",
+      "wall_seconds": 6.234640598297119
+    },
+    "fresh_summary_sha256": "2685e6b212687e5a506bf87ac74b8dc1685b9e55dd2082cc9d41a37ea2be109d",
+    "fresh_witness_sha256": "d8e9c8c345a3dc536451368b531a78cc656540b703e2faa0ab590706d5f340c6",
+    "stored_192": {
+      "distinct_roots": 12180,
+      "final_rational_expression": "2225439040605380000/447428816560392051",
+      "passed": true,
+      "record_counts": {
+        "angular_charge": 128,
+        "finite_sum": 3,
+        "guard_evaluation": 2,
+        "header": 1,
+        "response_sample": 1025,
+        "root_bracket": 12180,
+        "sample": 10240,
+        "target_checks": 1
+      },
+      "scope": "Exact data consistency, not independent proof of Arb's real-function enclosures.",
+      "wall_seconds": 6.609008312225342
+    }
+  },
+  "arithmetic_mode": "external",
+  "core_axioms": {
+    "allowed_standard": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "declarations": {
+      "Zeta3.Certificate.arithmeticFiniteCheck_sound": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "Zeta3.Endpoint.actualArithmeticRate_of_finiteEvidence": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "Zeta3.Endpoint.actualResponseRate_of_finiteEvidence": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "Zeta3.Endpoint.riemannZeta_three_exponent_le_of_finiteEvidence": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "Zeta3.Endpoint.riemannZeta_three_irrational_of_finiteEvidence": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "Zeta3.Endpoint.riemannZeta_three_rational_separation_of_finiteEvidence": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    "passed": true,
+    "required_external": []
+  },
+  "driver_sha256": "90313790262654d100253dd7a213632b25d3f6af58d4a4eeeb24bb55f0d55664",
+  "ended_utc": "2026-11-19T09:28:19.007246+00:00",
+  "expected_external_axioms": [
+    "Zeta3.Hybrid.ExternalArb.analytic_sum_lower",
+    "Zeta3.Hybrid.ExternalArb.angular_guard",
+    "Zeta3.Hybrid.ExternalArb.endpoint_lower",
+    "Zeta3.Hybrid.ExternalArb.endpoint_upper",
+    "Zeta3.Hybrid.ExternalArb.linear_sum_lower",
+    "Zeta3.Hybrid.ExternalArb.physical_guard",
+    "Zeta3.Hybrid.ExternalArb.response_sum_upper",
+    "Zeta3.Hybrid.ExternalArithmetic.arithmeticFiniteCheck_eq_true"
+  ],
+  "hybrid_axioms": {
+    "allowed_standard": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "declarations": {
+      "Zeta3.Hybrid.zeta3_irrational": [
+        "Classical.choice",
+        "Quot.sound",
+        "Zeta3.Hybrid.ExternalArb.analytic_sum_lower",
+        "Zeta3.Hybrid.ExternalArb.angular_guard",
+        "Zeta3.Hybrid.ExternalArb.endpoint_lower",
+        "Zeta3.Hybrid.ExternalArb.endpoint_upper",
+        "Zeta3.Hybrid.ExternalArb.linear_sum_lower",
+        "Zeta3.Hybrid.ExternalArb.physical_guard",
+        "Zeta3.Hybrid.ExternalArb.response_sum_upper",
+        "Zeta3.Hybrid.ExternalArithmetic.arithmeticFiniteCheck_eq_true",
+        "propext"
+      ],
+      "Zeta3.Hybrid.zeta3_irrationality_exponent_bound": [
+        "Classical.choice",
+        "Quot.sound",
+        "Zeta3.Hybrid.ExternalArb.analytic_sum_lower",
+        "Zeta3.Hybrid.ExternalArb.angular_guard",
+        "Zeta3.Hybrid.ExternalArb.endpoint_lower",
+        "Zeta3.Hybrid.ExternalArb.endpoint_upper",
+        "Zeta3.Hybrid.ExternalArb.linear_sum_lower",
+        "Zeta3.Hybrid.ExternalArb.physical_guard",
+        "Zeta3.Hybrid.ExternalArb.response_sum_upper",
+        "Zeta3.Hybrid.ExternalArithmetic.arithmeticFiniteCheck_eq_true",
+        "propext"
+      ],
+      "Zeta3.Hybrid.zeta3_rational_separation": [
+        "Classical.choice",
+        "Quot.sound",
+        "Zeta3.Hybrid.ExternalArb.analytic_sum_lower",
+        "Zeta3.Hybrid.ExternalArb.angular_guard",
+        "Zeta3.Hybrid.ExternalArb.endpoint_lower",
+        "Zeta3.Hybrid.ExternalArb.endpoint_upper",
+        "Zeta3.Hybrid.ExternalArb.linear_sum_lower",
+        "Zeta3.Hybrid.ExternalArb.physical_guard",
+        "Zeta3.Hybrid.ExternalArb.response_sum_upper",
+        "Zeta3.Hybrid.ExternalArithmetic.arithmeticFiniteCheck_eq_true",
+        "propext"
+      ]
+    },
+    "passed": true,
+    "required_external": [
+      "Zeta3.Hybrid.ExternalArb.analytic_sum_lower",
+      "Zeta3.Hybrid.ExternalArb.angular_guard",
+      "Zeta3.Hybrid.ExternalArb.endpoint_lower",
+      "Zeta3.Hybrid.ExternalArb.endpoint_upper",
+      "Zeta3.Hybrid.ExternalArb.linear_sum_lower",
+      "Zeta3.Hybrid.ExternalArb.physical_guard",
+      "Zeta3.Hybrid.ExternalArb.response_sum_upper",
+      "Zeta3.Hybrid.ExternalArithmetic.arithmeticFiniteCheck_eq_true"
+    ]
+  },
+  "lean_finite_profile": {
+    "cells": 5949,
+    "passed": true,
+    "scope": "Exact Lean runtime computation; not a kernel proof of the Boolean result."
+  },
+  "passed": true,
+  "runtime": {
+    "flint": "3.6.0",
+    "platform": "Linux-6.18.57-x86_64-with-glibc2.41",
+    "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+    "python_flint": "0.9.0"
+  },
+  "schema": "zeta3-hybrid-gate-v1",
+  "semantic_review": {
+    "checked_sources": {
+      "Zeta3/Analysis/AngularMass.lean": "3cfee76336d00e702e5a7130ec5a637a19ea730eef0aa356312ad77ca6f0408e",
+      "Zeta3/Analysis/AngularProfile.lean": "66bb2b02f341c3c82ba499288cc3160ea77ceea07b3eae2de035a6e4d67debc0",
+      "Zeta3/Analysis/CertifiedResponse.lean": "357e29157894f09d17089a0336da6ebe83d812e7c40dace4bea6d321ad8930fb",
+      "Zeta3/Analysis/ContourLinear.lean": "17c5f8be4dece5d0ca6ee56912e5fc732112846237cd2311c700acb62473d75c",
+      "Zeta3/Analysis/GammaKernel.lean": "ade03a01d2c84ecd80c9ad1c447a71b9de4b6e6f861cc020a87a7a9b68cb2620",
+      "Zeta3/Analysis/PhysicalGamma.lean": "438f151cf04fc985d7486e8c839ec92d6942ed09ba46e046ca5ca3c3d54b2d46",
+      "Zeta3/Analysis/PhysicalMass.lean": "b6536259bf1956a2344566f2e58e4a3cb5015f6bdcdb15a23fd3921d88c43d7d",
+      "Zeta3/Analysis/PhysicalProfile.lean": "f3e2c3a521dad47e86509f6712ff5ea30cf7111ae37393e9566f9b7d8b3a5378",
+      "Zeta3/Analysis/SimpleResponse.lean": "d8b5206bfb20d0cbeddf82ed154d77eafe3d13bc1de608791bdc384eed103bac",
+      "Zeta3/Certificate/Analytic.lean": "7da84d0f4d5d5ecac6386048b4f376b56c3374d85c91eca61562632a75c606a9",
+      "Zeta3/Certificate/FiniteNumerics.lean": "65b2c577b3da070974c59af8c5f12058d97f7677b4444e6a6fbe8b2be5bd08c3",
+      "Zeta3/Parameters.lean": "2ec4a0698474213dcf6f7c6ca82365569d6834dfdb66fd40eb9f29d2b7c13a70",
+      "zeta3_certificates/arb_simple.py": "9a984897fafe44ca0e14ad28f9ad967250def85f960a160ea5ff882c70cca4ba",
+      "zeta3_certificates/certificates/arb_simple/summary.json": "a521c83a4c90e4d64c1ca737380763fca8e92f49110a4d14d89b33250cf4993a",
+      "zeta3_certificates/certificates/arb_simple/witnesses.jsonl": "f6bbf2672c1386d28cd6bba96b132d42b4c216c81413262955c8d5a9677ada7c"
+    },
+    "manifest_sha256": "c0ddbb89b837c672e7a31265169e96054cabf503eed0a3324fa853d4b52b02af",
+    "scope": "Manual semantic correspondence review plus exact rational comparison of recorded certificate bounds; not a Lean kernel proof of Arb inclusions."
+  },
+  "source_root": "/workspace/scratch/707ccee40cd4/zeta3_hybrid_stage1/repo/zeta5",
+  "source_snapshot_sha256": "333e87a8ceacfae00c9bbab6443463c4389a5ca78f5cdada253492edf36e7678",
+  "source_stable_during_replay": true,
+  "started_utc": "2026-11-19T09:27:03.582597+00:00",
+  "status": "passed",
+  "steps": [
+    {
+      "command": [
+        "/workspace/scratch/707ccee40cd4/zeta3_hybrid_stage1/toolchains/lean-4.33.1-linux/bin/lean",
+        "--version"
+      ],
+      "cwd": "/workspace/scratch/707ccee40cd4/zeta3_hybrid_stage1/repo/zeta5",
+      "ended_utc": "2026-11-19T09:27:03.894070+00:00",
+      "exit_code": 0,
+      "log": "01_lean_version.log",
+      "log_sha256": "63f3e16bf0258e2cc0ab3010eb1830723df9bb85097b7b72b0137b9be25a78e9",
+      "name": "lean_version",
+      "started_utc": "2026-11-19T09:27:03.692540+00:00",
+      "status": "passed",
+      "wall_seconds": 0.20121858399943449
+    },
+    {
+      "command": [
+        "/workspace/scratch/707ccee40cd4/zeta3_hybrid_stage1/repo/zeta5/zeta3_certificates/.venv/bin/python",
+        "-c",
+        "import json,sys,platform,flint; print(json.dumps({'python':sys.version,'python_flint':flint.__version__,'flint':flint.__FLINT_VERSION__,'platform':platform.platform()}))"
+      ],
+      "cwd": "/workspace/scratch/707ccee40cd4/zeta3_hybrid_stage1/repo/zeta5",
+      "ended_utc": "2026-11-19T09:27:04.096389+00:00",
+      "exit_code": 0,
+      "log": "02_arb_environment.log",
+      "log_sha256": "f10b85a3eb14a335a9b750c4618497c6370309413f870e1f66dad9b2e1b5c10e",
+      "name": "arb_environment",
+      "started_utc": "2026-11-19T09:27:03.894961+00:00",
+      "status": "passed",
+      "wall_seconds": 0.20104102000186685
+    },
+    {
+      "command": [
+        "/workspace/scratch/707ccee40cd4/zeta3_hybrid_stage1/repo/zeta5/zeta3_certificates/.venv/bin/python",
+        "/workspace/scratch/707ccee40cd4/zeta3_hybrid_stage1/repo/zeta5/zeta3_certificates/verify_export.py",
+        "/workspace/scratch/707ccee40cd4/zeta3_hybrid_stage1/repo/zeta5/zeta3_certificates/certificates/arb_simple",
+        "--report",
+        "/workspace/scratch/707ccee40cd4/zeta3_hybrid_stage1/repo/zeta5/zeta3_certificates/certificates/hybrid_validation/stored_192_export.json"
+      ],
+      "cwd": "/workspace/scratch/707ccee40cd4/zeta3_hybrid_stage1/repo/zeta5",
+      "ended_utc": "2026-11-19T09:27:10.904406+00:00",
+      "exit_code": 0,
+      "log": "03_stored_192_export.log",
+      "log_sha256": "9f053ddfbcdb1986801d1e1e5afdad9a82c359f4717b029e37e3207655f2e872",
+      "name": "stored_192_export",
+      "started_utc": "2026-11-19T09:27:04.097168+00:00",
+      "status": "passed",
+      "wall_seconds": 6.806929671001853
+    },
+    {
+      "command": [
+        "/workspace/scratch/707ccee40cd4/zeta3_hybrid_stage1/repo/zeta5/zeta3_certificates/.venv/bin/python",
+        "/workspace/scratch/707ccee40cd4/zeta3_hybrid_stage1/repo/zeta5/zeta3_certificates/arb_simple.py",
+        "--precision",
+        "256",
+        "--output-dir",
+        "/workspace/scratch/707ccee40cd4/zeta3_hybrid_stage1/repo/zeta5/zeta3_certificates/certificates/hybrid_validation/arb_256"
+      ],
+      "cwd": "/workspace/scratch/707ccee40cd4/zeta3_hybrid_stage1/repo/zeta5",
+      "ended_utc": "2026-11-19T09:27:23.320415+00:00",
+      "exit_code": 0,
+      "log": "04_fresh_arb_256.log",
+      "log_sha256": "6150120f9f55058a0378d91e50b03461e167bd78dda9578e317b9d605806aa53",
+      "name": "fresh_arb_256",
+      "started_utc": "2026-11-19T09:27:10.905555+00:00",
+      "status": "passed",
+      "wall_seconds": 12.414462048000132
+    },
+    {
+      "command": [
+        "/workspace/scratch/707ccee40cd4/zeta3_hybrid_stage1/repo/zeta5/zeta3_certificates/.venv/bin/python",
+        "/workspace/scratch/707ccee40cd4/zeta3_hybrid_stage1/repo/zeta5/zeta3_certificates/verify_export.py",
+        "/workspace/scratch/707ccee40cd4/zeta3_hybrid_stage1/repo/zeta5/zeta3_certificates/certificates/hybrid_validation/arb_256",
+        "--report",
+        "/workspace/scratch/707ccee40cd4/zeta3_hybrid_stage1/repo/zeta5/zeta3_certificates/certificates/hybrid_validation/fresh_256_export.json"
+      ],
+      "cwd": "/workspace/scratch/707ccee40cd4/zeta3_hybrid_stage1/repo/zeta5",
+      "ended_utc": "2026-11-19T09:27:29.733567+00:00",
+      "exit_code": 0,
+      "log": "05_fresh_256_export.log",
+      "log_sha256": "b61a88d85f672a6160b633f875a54046ffd1bc655d70192a5baf4bd32f21dd6e",
+      "name": "fresh_256_export",
+      "started_utc": "2026-11-19T09:27:23.322343+00:00",
+      "status": "passed",
+      "wall_seconds": 6.410699923999346
+    },
+    {
+      "command": [
+        "/workspace/scratch/707ccee40cd4/zeta3_hybrid_stage1/toolchains/lean-4.33.1-linux/bin/lake",
+        "-f",
+        "lakefile.zeta3.toml",
+        "build",
+        "Zeta3.Certificate.ArithmeticFinite"
+      ],
+      "cwd": "/workspace/scratch/707ccee40cd4/zeta3_hybrid_stage1/repo/zeta5",
+      "ended_utc": "2026-11-19T09:27:36.586448+00:00",
+      "exit_code": 0,
+      "log": "06_build_finite_profile.log",
+      "log_sha256": "c067264462ac803972cb0d2786de150244b8dcc597f5921e11aed225f779b771",
+      "name": "build_finite_profile",
+      "started_utc": "2026-11-19T09:27:29.773697+00:00",
+      "status": "passed",
+      "wall_seconds": 6.812092914002278
+    },
+    {
+      "command": [
+        "/workspace/scratch/707ccee40cd4/zeta3_hybrid_stage1/toolchains/lean-4.33.1-linux/bin/lake",
+        "-f",
+        "lakefile.zeta3.toml",
+        "env",
+        "/workspace/scratch/707ccee40cd4/zeta3_hybrid_stage1/toolchains/lean-4.33.1-linux/bin/lean",
+        "--run",
+        "zeta3_certificates/CheckFiniteProfile.lean"
+      ],
+      "cwd": "/workspace/scratch/707ccee40cd4/zeta3_hybrid_stage1/repo/zeta5",
+      "ended_utc": "2026-11-19T09:28:04.041973+00:00",
+      "exit_code": 0,
+      "log": "07_actual_lean_finite_profile.log",
+      "log_sha256": "bdb8543ab7599652e0b904c4bcd1a3e0c7be8f84f82464b257431710c2308434",
+      "name": "actual_lean_finite_profile",
+      "started_utc": "2026-11-19T09:27:36.588639+00:00",
+      "status": "passed",
+      "wall_seconds": 27.451171757998964
+    },
+    {
+      "command": [
+        "/workspace/scratch/707ccee40cd4/zeta3_hybrid_stage1/toolchains/lean-4.33.1-linux/bin/lake",
+        "-f",
+        "lakefile.zeta3.toml",
+        "build",
+        "Zeta3.FinalAudit",
+        "Zeta3.Hybrid.Verified"
+      ],
+      "cwd": "/workspace/scratch/707ccee40cd4/zeta3_hybrid_stage1/repo/zeta5",
+      "ended_utc": "2026-11-19T09:28:07.654897+00:00",
+      "exit_code": 0,
+      "log": "08_build_final_modules.log",
+      "log_sha256": "5fd826a8d421110f3a7dac1630fbc32f5b22fbdd9d810f9f2d850e52cfe23959",
+      "name": "build_final_modules",
+      "started_utc": "2026-11-19T09:28:04.046923+00:00",
+      "status": "passed",
+      "wall_seconds": 3.607540834997053
+    },
+    {
+      "command": [
+        "/workspace/scratch/707ccee40cd4/zeta3_hybrid_stage1/toolchains/lean-4.33.1-linux/bin/lake",
+        "-f",
+        "lakefile.zeta3.toml",
+        "env",
+        "/workspace/scratch/707ccee40cd4/zeta3_hybrid_stage1/toolchains/lean-4.33.1-linux/bin/lean",
+        "--trust=0",
+        "Zeta3/FinalAudit.lean"
+      ],
+      "cwd": "/workspace/scratch/707ccee40cd4/zeta3_hybrid_stage1/repo/zeta5",
+      "ended_utc": "2026-11-19T09:28:13.865005+00:00",
+      "exit_code": 0,
+      "log": "09_core_trust_zero.log",
+      "log_sha256": "4e8cd33b67e0e1ba5ee7f6b793ed0250b2e76e492fba7a21cc9c60e5f79f06fb",
+      "name": "core_trust_zero",
+      "started_utc": "2026-11-19T09:28:07.656994+00:00",
+      "status": "passed",
+      "wall_seconds": 6.207182296999235
+    },
+    {
+      "command": [
+        "/workspace/scratch/707ccee40cd4/zeta3_hybrid_stage1/toolchains/lean-4.33.1-linux/bin/lake",
+        "-f",
+        "lakefile.zeta3.toml",
+        "env",
+        "/workspace/scratch/707ccee40cd4/zeta3_hybrid_stage1/toolchains/lean-4.33.1-linux/bin/lean",
+        "--trust=0",
+        "Zeta3/Hybrid/Verified.lean"
+      ],
+      "cwd": "/workspace/scratch/707ccee40cd4/zeta3_hybrid_stage1/repo/zeta5",
+      "ended_utc": "2026-11-19T09:28:18.881894+00:00",
+      "exit_code": 0,
+      "log": "10_hybrid_trust_zero.log",
+      "log_sha256": "6792d31f282babae80684d83eaec49a7dd380fccf65c0a90e79cd1352ccd2623",
+      "name": "hybrid_trust_zero",
+      "started_utc": "2026-11-19T09:28:13.868633+00:00",
+      "status": "passed",
+      "wall_seconds": 5.012750062000123
+    }
+  ],
+  "trust_boundary": "Lean kernel checks the mathematical implication; seven fixed real inequalities are external Arb evidence. The optional eighth external assertion is one closed finite rational Boolean. No external rank, valuation, integral, asymptotic, or irrationality premise is allowed.",
+  "wall_seconds": 75.42463999299798
+}

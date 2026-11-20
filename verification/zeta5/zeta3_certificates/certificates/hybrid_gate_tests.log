@@ -1,0 +1,22 @@
+test_accept_exact_eight_external (__main__.AxiomBoundaryTests.test_accept_exact_eight_external) ... ok
+test_accept_explicit_kernel_arithmetic_mode (__main__.AxiomBoundaryTests.test_accept_explicit_kernel_arithmetic_mode) ... ok
+test_accept_standard_core (__main__.AxiomBoundaryTests.test_accept_standard_core) ... ok
+test_reject_changed_arithmetic_boundary (__main__.AxiomBoundaryTests.test_reject_changed_arithmetic_boundary) ... ok
+test_reject_duplicate_report (__main__.AxiomBoundaryTests.test_reject_duplicate_report) ... ok
+test_reject_extra_declaration (__main__.AxiomBoundaryTests.test_reject_extra_declaration) ... ok
+test_reject_malformed_axiom_name (__main__.AxiomBoundaryTests.test_reject_malformed_axiom_name) ... ok
+test_reject_missing_declaration (__main__.AxiomBoundaryTests.test_reject_missing_declaration) ... ok
+test_reject_sorry_or_native_or_mathematical_axiom (__main__.AxiomBoundaryTests.test_reject_sorry_or_native_or_mathematical_axiom) ... ok
+test_reject_manifest_mutation (__main__.IdentityTests.test_reject_manifest_mutation) ... ok
+test_reject_path_escape (__main__.IdentityTests.test_reject_path_escape) ... ok
+test_reject_source_mutation (__main__.IdentityTests.test_reject_source_mutation) ... ok
+test_reviewed_manifest_current (__main__.IdentityTests.test_reviewed_manifest_current) ... ok
+test_nonzero_is_recorded_and_rejected (__main__.ProcessFailureTests.test_nonzero_is_recorded_and_rejected) ... {"step": "deliberate_failure", "status": "started", "log": "/tmp/tmp77nv_1a_/01_deliberate_failure.log"}
+ok
+test_timeout_is_recorded_and_rejected (__main__.ProcessFailureTests.test_timeout_is_recorded_and_rejected) ... {"step": "deliberate_timeout", "status": "started", "log": "/tmp/tmpdkyiehje/01_deliberate_timeout.log"}
+ok
+
+----------------------------------------------------------------------
+Ran 15 tests in 0.497s
+
+OK

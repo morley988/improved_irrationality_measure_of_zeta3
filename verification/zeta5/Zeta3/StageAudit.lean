@@ -1,0 +1,48 @@
+import Zeta3.Analysis.CoreAudit
+import Zeta3.Analysis.CertifiedTrialSubspace
+import Zeta3.Analysis.ResponseRegularity
+import Zeta3.Endpoint.ConcreteRateTransfer
+import Zeta3.Certificate.FiniteNumerics
+import Zeta3.Construction.FeatureComplete
+import Zeta3.Construction.FeatureKernel
+import Zeta3.Arithmetic.NormalizerPrimeTail
+import Zeta3.Endpoint.RiemannZetaBound
+import Zeta3.Arithmetic.PrimeStripAssembly
+import Zeta3.Arithmetic.SecondTransport
+import Zeta3.Arithmetic.SecondTransportPencil
+import Zeta3.Construction.SecondParityRank
+import Zeta3.Analysis.ArithmeticRate
+
+/-!
+Intermediate audit of the actual assembled mathematical components.
+The actual analytic/contour/spectral response is proved from finite numerical
+evidence. The last endpoint theorem still has an explicit arithmetic-rate
+premise; an axiom audit does not discharge that premise.
+-/
+
+#print axioms Zeta3.Construction.Rational.realHankel_nullity_le_two
+#print axioms Zeta3.Construction.Rational.windowIntegerPolynomial_rootMultiplicity_le_two
+#print axioms Zeta3.Construction.windowIntegerPolynomial_natDegree_le_effectivePoles
+#print axioms Zeta3.Construction.Features.reducedRestrictionMatrix_rank
+#print axioms Zeta3.Construction.Features.firstKernelTopMap_finrank
+#print axioms Zeta3.Analysis.CertificateResponse.actual_contour_exponent_bound
+#print axioms Zeta3.Analysis.CertificateResponse.exists_actual_trial_circle_bound
+#print axioms Zeta3.Analysis.CertificateResponse.exists_actual_trial_norm_bound
+#print axioms Zeta3.Analysis.CertificateResponse.exists_actual_trial_subspace
+#print axioms Zeta3.Analysis.symmetric_eigenvalue_le_of_codimension
+#print axioms Zeta3.Analysis.CertificateResponse.response_continuousAt_cutoff
+#print axioms Zeta3.Analysis.windowIntegerPolynomial_response_identity
+#print axioms Zeta3.Analysis.exists_certified_integer_rate_error
+#print axioms Zeta3.Endpoint.approximation_exponent_le_target_of_actual_rates
+#print axioms Zeta3.Certificate.FiniteNumericalEvidence.linear
+#print axioms Zeta3.Certificate.FiniteNumericalEvidence.response
+#print axioms Zeta3.Analysis.CertificateResponse.actualContourEigenvalues_even_bound
+#print axioms Zeta3.Analysis.determinantResponse_eigenvalue_majorant
+#print axioms Zeta3.Endpoint.actualResponseRate_of_finiteEvidence
+#print axioms Zeta3.Endpoint.riemannZeta_three_exponent_le_of_arithmetic_rate
+#print axioms Zeta3.Endpoint.riemannZeta_three_rational_separation_of_arithmetic_rate
+#print axioms Zeta3.Construction.Features.matrix_rank_le_parity_cap
+#print axioms Zeta3.Arithmetic.two_kernel_lower_of_residue_bilinear
+#print axioms Zeta3.Arithmetic.localMatrixPair_scaledCentralPencil
+#print axioms Zeta3.Arithmetic.windowNormalizer_finiteStripProfile_bound_eventually
+#print axioms Zeta3.Analysis.exists_arithmetic_rate_error_of_prime_profile

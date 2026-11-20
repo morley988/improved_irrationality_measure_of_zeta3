@@ -1,0 +1,5 @@
+'Zeta3.Construction.Features.secondResidueBilinear_rank_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Zeta3.Arithmetic.normalizedCentralWindow_second_residue' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Zeta3.Arithmetic.unscaledCentralPencil_second_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Zeta3.Arithmetic.windowDeterminant_stageFeaturePrice' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Zeta3.Arithmetic.windowNormalizer_stageFeaturePrice_bound' depends on axioms: [propext, Classical.choice, Quot.sound]

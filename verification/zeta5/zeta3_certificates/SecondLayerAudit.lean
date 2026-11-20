@@ -1,0 +1,6 @@
+import Zeta3.Arithmetic.StageFeatureBounds
+#print axioms Zeta3.Construction.Features.secondResidueBilinear_rank_le
+#print axioms Zeta3.Arithmetic.normalizedCentralWindow_second_residue
+#print axioms Zeta3.Arithmetic.unscaledCentralPencil_second_bound
+#print axioms Zeta3.Arithmetic.windowDeterminant_stageFeaturePrice
+#print axioms Zeta3.Arithmetic.windowNormalizer_stageFeaturePrice_bound

@@ -1,0 +1,7 @@
+'Zeta3.Analysis.determinantResponse_eq_contour_matrix' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Zeta3.Analysis.determinantResponse_majorant_of_physical_orthonormal' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Zeta3.Analysis.rationalContourWeight_norm_upper' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Zeta3.Analysis.actual_physical_uniform_norm_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Zeta3.Analysis.determinantResponse_eigenvalue_majorant' depends on axioms: [propext, Classical.choice, Quot.sound]

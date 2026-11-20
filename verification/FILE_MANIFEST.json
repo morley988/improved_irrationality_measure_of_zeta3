@@ -1,0 +1,2270 @@
+{
+  "base_repository": "https://github.com/morley988/zeta5-independent-lean.git",
+  "base_revision": "7cccd34d0f72cffa7fc05aafb133940c2386513b",
+  "files": {
+    "README.txt": {
+      "bytes": 13923,
+      "sha256": "78ba18c335d22a2ca5cd62fc7f4c105b71585c2c88735ee0b496c3a0c6ea5d26"
+    },
+    "audits/ENDPOINT_AUDIT.md": {
+      "bytes": 12144,
+      "sha256": "fdcedd75be412024545904ca9a4a52c54ba973281ae5d5e3f654eb26b5b6199c"
+    },
+    "audits/FINITE_SEMANTIC_AUDIT.md": {
+      "bytes": 5679,
+      "sha256": "9b7c14ba59cc5c0217f32154f802b05c6ae53655d0b3c233bb1d3364ec4bb6da"
+    },
+    "audits/build-final-hybrid-1.log": {
+      "bytes": 158712,
+      "sha256": "bee47c7eb26d150e14766febcd0b23ee1baabf4c27120733654b7008a0290035"
+    },
+    "audits/build-stage-audit-2.log": {
+      "bytes": 149128,
+      "sha256": "48643b5ada69ba6a6f1e3ecf37df29b108b43403ffed9d9ca3ff8c16a920757f"
+    },
+    "audits/check-finite-profile-runtime-1.log": {
+      "bytes": 224,
+      "sha256": "bdb8543ab7599652e0b904c4bcd1a3e0c7be8f84f82464b257431710c2308434"
+    },
+    "audits/stage-audit-trust-zero-1.log": {
+      "bytes": 1958,
+      "sha256": "3b6f4aba9d4f7682f3784cc8adc5cb11ef3a98977a0cc007659093c57b7f0caa"
+    },
+    "provenance/dependency_sources_initial.json": {
+      "bytes": 2334,
+      "sha256": "edc43cc6dbe0e481c4711593b33055d36e971468691286b72b1aba70e7687839"
+    },
+    "zeta5/MANIFEST.sha256": {
+      "bytes": 25740,
+      "sha256": "6b714e280c179bcb9d72ced45cfcaae738a42677a470381b5e8e6c02f3c8edd2"
+    },
+    "zeta5/README.md": {
+      "bytes": 3005,
+      "sha256": "835dafaf5d5627817c02ec06eda7cf6d025831364bf0363a31030fadf2d46425"
+    },
+    "zeta5/VERIFICATION.json": {
+      "bytes": 7773,
+      "sha256": "a396832618f420de7e748894906600eda83c7b86c8b19ee59db8ea3f7d5a7301"
+    },
+    "zeta5/VERIFICATION_REPORT.txt": {
+      "bytes": 10469,
+      "sha256": "82a4cb5166bee67d106edb0918ed9048418ffcb1787974c7a4c4aaae6c13218e"
+    },
+    "zeta5/Zeta3/Analysis/AnalyticError.lean": {
+      "bytes": 2112,
+      "sha256": "cf09a4971a5b23703e326c8a9664438fe11a5ba9189381dcb91116c949c9ff68"
+    },
+    "zeta5/Zeta3/Analysis/AngularAbel.lean": {
+      "bytes": 11216,
+      "sha256": "f52a9d95ba87f0d6bd46153f4d8c2bc4e9f7e631af1ea58b89c7f1eefbd82af9"
+    },
+    "zeta5/Zeta3/Analysis/AngularEquilibrium.lean": {
+      "bytes": 7070,
+      "sha256": "d8580a4ca91190006f9e0d441d584be4c6e6f672864bfa48e163c71392fbd5fb"
+    },
+    "zeta5/Zeta3/Analysis/AngularMass.lean": {
+      "bytes": 15093,
+      "sha256": "3cfee76336d00e702e5a7130ec5a637a19ea730eef0aa356312ad77ca6f0408e"
+    },
+    "zeta5/Zeta3/Analysis/AngularNormLower.lean": {
+      "bytes": 1194,
+      "sha256": "28d3d8481e712862ec5ffb680523c2438e6d30c6c8ca889d2bc89d0338bf65fa"
+    },
+    "zeta5/Zeta3/Analysis/AngularPotential.lean": {
+      "bytes": 5664,
+      "sha256": "79ebbac0baa9bfe03f70da464ab69f745d9d8b86242c64d158a55748489020c3"
+    },
+    "zeta5/Zeta3/Analysis/AngularProfile.lean": {
+      "bytes": 8041,
+      "sha256": "66bb2b02f341c3c82ba499288cc3160ea77ceea07b3eae2de035a6e4d67debc0"
+    },
+    "zeta5/Zeta3/Analysis/AngularQuantile.lean": {
+      "bytes": 6686,
+      "sha256": "1cbe0fcb90e889ecae9c83d18a447c718de453456aa8c245fd74458747a8dab4"
+    },
+    "zeta5/Zeta3/Analysis/AngularTrial.lean": {
+      "bytes": 5594,
+      "sha256": "1d4f50bfedcf3cfb1b83b1d480dea4f5e866f18d62b1110e312dbbc3b965061e"
+    },
+    "zeta5/Zeta3/Analysis/AngularTrialExistence.lean": {
+      "bytes": 4010,
+      "sha256": "8b05bc3de58e7bb5c183a2c7711946f393ce86697a2b96b90171d0cce4b3bcec"
+    },
+    "zeta5/Zeta3/Analysis/AngularZeros.lean": {
+      "bytes": 9067,
+      "sha256": "890cc8d28ed8e85d0ec62c3222666a3474da9d7ee9faabdda70c4d0d3f766977"
+    },
+    "zeta5/Zeta3/Analysis/ArcsineLinear.lean": {
+      "bytes": 4277,
+      "sha256": "021e31d9021c1b7fae38333d33fe1600ce432ed81cfec7b95c769204ce64f220"
+    },
+    "zeta5/Zeta3/Analysis/ArithmeticRate.lean": {
+      "bytes": 4667,
+      "sha256": "12cab672f74f8a1c1ee7f19e44b0ff4a548f16ed5b9980ae32b0110aae637948"
+    },
+    "zeta5/Zeta3/Analysis/BoundedRadialMixture.lean": {
+      "bytes": 11500,
+      "sha256": "90312eb40db88066f3db1051d3fb23146afc2d6077e7ae729638ed2fa8cded3a"
+    },
+    "zeta5/Zeta3/Analysis/CertifiedAngularTrial.lean": {
+      "bytes": 4275,
+      "sha256": "13f165112348f90fdfd07224b1442160a857c5c7bb6a6c7789fceb56a967ecdd"
+    },
+    "zeta5/Zeta3/Analysis/CertifiedContourExponent.lean": {
+      "bytes": 3727,
+      "sha256": "1cdb86b8b7251a330805695c2ab8b58de5f85cee71fc102eee8bb327a9873450"
+    },
+    "zeta5/Zeta3/Analysis/CertifiedEigenvalues.lean": {
+      "bytes": 2164,
+      "sha256": "67847df6f033748fa7da0f03ab8b6449afdc0ce141e8b669561d1fd203f70eab"
+    },
+    "zeta5/Zeta3/Analysis/CertifiedResponse.lean": {
+      "bytes": 5524,
+      "sha256": "357e29157894f09d17089a0336da6ebe83d812e7c40dace4bea6d321ad8930fb"
+    },
+    "zeta5/Zeta3/Analysis/CertifiedTrialNorm.lean": {
+      "bytes": 2436,
+      "sha256": "16fd89a72c6a1a36c03deced7415251bdccce433b8c7be62393dfb3c3d31814b"
+    },
+    "zeta5/Zeta3/Analysis/CertifiedTrialSubspace.lean": {
+      "bytes": 3619,
+      "sha256": "3452a120c4485a086d56189d958510d0e9fc9161e82f2d1cbe1ab26937bed68c"
+    },
+    "zeta5/Zeta3/Analysis/ComplexArcsine.lean": {
+      "bytes": 5601,
+      "sha256": "6ba987288647872ecad0657d83975206f3537ff5151cfbc4d84f084c90e05124"
+    },
+    "zeta5/Zeta3/Analysis/ComplexLogTruncation.lean": {
+      "bytes": 5354,
+      "sha256": "09d430c1d856ef2f0667a60d663e04f2d7402810b2d144a51ab36ad469cfffe0"
+    },
+    "zeta5/Zeta3/Analysis/ComplexPolynomialComparison.lean": {
+      "bytes": 2084,
+      "sha256": "439415339d2ae284234974d0636ca9bdd71b8b398e62c26a6c3e8e443e77eacc"
+    },
+    "zeta5/Zeta3/Analysis/ComplexPotentialContinuity.lean": {
+      "bytes": 7847,
+      "sha256": "db6d504416e6a66212f89f965eb0ab1ea526628c2257755ecac2f99134ec3f69"
+    },
+    "zeta5/Zeta3/Analysis/ComplexPotentialHarmonic.lean": {
+      "bytes": 7473,
+      "sha256": "3712b6aef5669723308d339c5acedd36d29cdeda8d53facc844b540dcbfe8cab"
+    },
+    "zeta5/Zeta3/Analysis/ComplexPotentialInfinity.lean": {
+      "bytes": 3427,
+      "sha256": "c58269a8849fe90da4955618fbaf8373ca65654a0b90452cdddd61b70305f433"
+    },
+    "zeta5/Zeta3/Analysis/ConcreteResponse.lean": {
+      "bytes": 4738,
+      "sha256": "3827c8269614bd5d90e215499ddbafa0397d0bd3a9d0146ef725a3b7442f20f9"
+    },
+    "zeta5/Zeta3/Analysis/ContourBilinear.lean": {
+      "bytes": 7932,
+      "sha256": "fbbfa312a228d458c9c5cae8be029cb28463459ce94de2229c2b6851c2f134a1"
+    },
+    "zeta5/Zeta3/Analysis/ContourCoefficient.lean": {
+      "bytes": 8417,
+      "sha256": "71c77d200caae28edcde1c7b67fff098ebb2d5facdd1dc9b5139043b3ca55c89"
+    },
+    "zeta5/Zeta3/Analysis/ContourCoefficientLinear.lean": {
+      "bytes": 7156,
+      "sha256": "907f59230c5304a9e289422d95632fd0145079268de6501950d74efee38e1e3a"
+    },
+    "zeta5/Zeta3/Analysis/ContourDensity.lean": {
+      "bytes": 10126,
+      "sha256": "b1c02fd9c0087de8cfd2a33c12cfbab73dd68a5ecd1d16a7c46cdc7d9e3748c4"
+    },
+    "zeta5/Zeta3/Analysis/ContourEigenbasis.lean": {
+      "bytes": 3810,
+      "sha256": "9ed23a925dd6de41c08d22677e37fe8dbd08a2eb67947da0f1b10de25d90f5e7"
+    },
+    "zeta5/Zeta3/Analysis/ContourFieldContinuity.lean": {
+      "bytes": 7011,
+      "sha256": "9b74c1b645efd553b8572a4bf6619afbb1cb2b5492e6b44d4da950edf756ef83"
+    },
+    "zeta5/Zeta3/Analysis/ContourForm.lean": {
+      "bytes": 4251,
+      "sha256": "7bab37edc1197ca9c9ddb7a42ed6d2459f4866fe858adea2f8f4252c2198aa0f"
+    },
+    "zeta5/Zeta3/Analysis/ContourLinear.lean": {
+      "bytes": 6881,
+      "sha256": "17c5f8be4dece5d0ca6ee56912e5fc732112846237cd2311c700acb62473d75c"
+    },
+    "zeta5/Zeta3/Analysis/ContourLocalNorm.lean": {
+      "bytes": 6226,
+      "sha256": "2196e9137126eab864f599e357f4a31fb62002c9c028583220a037bdae9e77ea"
+    },
+    "zeta5/Zeta3/Analysis/ContourMarkov.lean": {
+      "bytes": 7635,
+      "sha256": "08dcf8e7388fe4dcb66b3579f2f7c8898980e798328683307a6df60ad893baf1"
+    },
+    "zeta5/Zeta3/Analysis/ContourMatrixAlgebra.lean": {
+      "bytes": 1719,
+      "sha256": "f737a5fe87d9079d4b35a5ba511a645094732f9b14e6f57b600ebbf55f3beb4c"
+    },
+    "zeta5/Zeta3/Analysis/ContourMatrixBridge.lean": {
+      "bytes": 4632,
+      "sha256": "c6a75de4114dc39d6bba378ef3806315e99b6f7ebb8303d3086da48eb00359dd"
+    },
+    "zeta5/Zeta3/Analysis/ContourMaximum.lean": {
+      "bytes": 7438,
+      "sha256": "58d5b8412d6f27b750dffd5f2da3e693cf4dfefc8599a8d49322e3d62d95613e"
+    },
+    "zeta5/Zeta3/Analysis/ContourMidpoint.lean": {
+      "bytes": 3312,
+      "sha256": "2c00a4b080a88a08093ff3c30b51463a93b18a8cba30849ecd3c9afcc972381c"
+    },
+    "zeta5/Zeta3/Analysis/ContourNegative.lean": {
+      "bytes": 3767,
+      "sha256": "4dcfa46a18a7e4ec12e2e984f5896731760dcee7e8e253c8380760b8ac0bb1ea"
+    },
+    "zeta5/Zeta3/Analysis/ContourNorm.lean": {
+      "bytes": 7406,
+      "sha256": "a1f2a8e3a94215be4c6f7115cbeaa49f4c771c025cf9720422cd443f216cb320"
+    },
+    "zeta5/Zeta3/Analysis/ContourNormIntegral.lean": {
+      "bytes": 7317,
+      "sha256": "a5eaedc6dfb5523dd692960a166d379c22eff3f7f2dd5ff18da5b14eaaf68c17"
+    },
+    "zeta5/Zeta3/Analysis/ContourPhase.lean": {
+      "bytes": 8984,
+      "sha256": "292b9ce3ec89cc7b32032bbe1c3e226f7c4e094f6f0cbd50d68ef28bab3569e5"
+    },
+    "zeta5/Zeta3/Analysis/ContourPhysicalSpace.lean": {
+      "bytes": 7232,
+      "sha256": "3c82739661e065d657e3aa13f5d64e2b03234a11a444615cad7d5c8d944a40b7"
+    },
+    "zeta5/Zeta3/Analysis/ContourProduct.lean": {
+      "bytes": 7564,
+      "sha256": "c64a5cd25dd36fb9726165753f010baf78be26a337fa929abe67148d0392d005"
+    },
+    "zeta5/Zeta3/Analysis/ContourRational.lean": {
+      "bytes": 7562,
+      "sha256": "01c650e438860b2ba6ac727e41ab6dd43c62c06c7ad18824d9b51f4237748928"
+    },
+    "zeta5/Zeta3/Analysis/ContourRationalKernel.lean": {
+      "bytes": 5857,
+      "sha256": "3c43273d613817083a42e4f8a680c0e149883c2c34214c2e8f50e8561f417b18"
+    },
+    "zeta5/Zeta3/Analysis/ContourRationalScaled.lean": {
+      "bytes": 6251,
+      "sha256": "7f2cba87092b1bde188ed68924600df627411f6dee2de98d3b66f304db7dea53"
+    },
+    "zeta5/Zeta3/Analysis/ContourRiemann.lean": {
+      "bytes": 8665,
+      "sha256": "379de576dcef05075bd9ff1792c5c361cf6f299041b75d53b4a67c9b6521596c"
+    },
+    "zeta5/Zeta3/Analysis/ContourUniformNorm.lean": {
+      "bytes": 7715,
+      "sha256": "c3832f06e7f9ea847d6ec219fc38bb22b8fb3ba32061f9298beda0d77ae78301"
+    },
+    "zeta5/Zeta3/Analysis/ContourWeightedNorm.lean": {
+      "bytes": 6209,
+      "sha256": "ead9cada4174bfd8a7013a2befa4b8d669931bef9708808a46a672da73359c79"
+    },
+    "zeta5/Zeta3/Analysis/CoreAudit.lean": {
+      "bytes": 1118,
+      "sha256": "825927778f225d420a7b974a0d3c269a0de7c82c9042dbc635f9607c0af6d857"
+    },
+    "zeta5/Zeta3/Analysis/CubicCauchy.lean": {
+      "bytes": 11547,
+      "sha256": "5fdcce69efa430ba84bbc3767f9b4b430a00a60b61b040563d899d5b3d14ff67"
+    },
+    "zeta5/Zeta3/Analysis/CubicDensity.lean": {
+      "bytes": 5499,
+      "sha256": "48159cf8b71822ced79a440bf9511c4fc5d4479875d84e4c2c965d2d6a99caad"
+    },
+    "zeta5/Zeta3/Analysis/CubicDensityBound.lean": {
+      "bytes": 5700,
+      "sha256": "2e16603839f6c474fa7b79233c9d1c6daa8cc0e5cdc83d185ad33c63e80e94e7"
+    },
+    "zeta5/Zeta3/Analysis/CubicGram.lean": {
+      "bytes": 7546,
+      "sha256": "f064c5d85c25e93c0e544f8343a44485253ea8d4f370e6f6932c1d6a970c9672"
+    },
+    "zeta5/Zeta3/Analysis/CubicLaplace.lean": {
+      "bytes": 3887,
+      "sha256": "8d1f6d29966efd94ab297bd3ff81f39ee4ae4e843430caae430a8006722d41b3"
+    },
+    "zeta5/Zeta3/Analysis/CubicMoments.lean": {
+      "bytes": 1222,
+      "sha256": "aab9f9b0a7b7bdd4ae544bf6fe111b95272b3915e304702a21bcf517179899a3"
+    },
+    "zeta5/Zeta3/Analysis/CubicPencil.lean": {
+      "bytes": 2826,
+      "sha256": "6d3cdcf2e57de4c67bdfc322998a5a009a09b4b4a393663e077ec1d26a8d4272"
+    },
+    "zeta5/Zeta3/Analysis/CubicPositivity.lean": {
+      "bytes": 5394,
+      "sha256": "e3391a8788303388c5f0edd6cf97442e7c4179a30096fec0a8866f18d0e6146a"
+    },
+    "zeta5/Zeta3/Analysis/CubicPushforward.lean": {
+      "bytes": 6294,
+      "sha256": "2076c54aada8dfa4b0744209e65ccbc6209d0ae9ffc5a2dd4cd5d75a73701893"
+    },
+    "zeta5/Zeta3/Analysis/CubicStieltjes.lean": {
+      "bytes": 2561,
+      "sha256": "66ad535177e687ba60473c798c9c7cb8a5355862622a155e20f88f3ff8143cb2"
+    },
+    "zeta5/Zeta3/Analysis/CubicStieltjesCoth.lean": {
+      "bytes": 6941,
+      "sha256": "982b9d8e7bba0cefc5f6e428f3f25ca26c914e4f93156742c49000eec4855bda"
+    },
+    "zeta5/Zeta3/Analysis/CubicStieltjesLaplace.lean": {
+      "bytes": 5803,
+      "sha256": "cc6841a13f36f427adf247613890f85947bd26f0b216274cf10059eef5b239f9"
+    },
+    "zeta5/Zeta3/Analysis/CubicZetaTail.lean": {
+      "bytes": 1950,
+      "sha256": "d0b8a7bae6529dc18e3c06e7ade603f3b9d34daedac83d4a1bb0303d68fd4ec3"
+    },
+    "zeta5/Zeta3/Analysis/DeterminantMajorant.lean": {
+      "bytes": 4332,
+      "sha256": "3d2392657aa5145ca431f7e39e6571eefb3eec56bbbd09dcece2b1c20fe88404"
+    },
+    "zeta5/Zeta3/Analysis/DeterminantRate.lean": {
+      "bytes": 5475,
+      "sha256": "cd6b2f18fb761c6108984bab610d402d0e94c2208a97a28a4bf7a53667931460"
+    },
+    "zeta5/Zeta3/Analysis/FiniteGrid.lean": {
+      "bytes": 3582,
+      "sha256": "5939c8241a5aafbd8bc569a6e273101c4dfb199dd50d151253e9e44ceb979725"
+    },
+    "zeta5/Zeta3/Analysis/GammaKernel.lean": {
+      "bytes": 7151,
+      "sha256": "ade03a01d2c84ecd80c9ad1c447a71b9de4b6e6f861cc020a87a7a9b68cb2620"
+    },
+    "zeta5/Zeta3/Analysis/GammaPotentialBridge.lean": {
+      "bytes": 7224,
+      "sha256": "edc9cab2474df1e52545f5f048c0b189679b28ba7245805af4f6ddc85b16fef4"
+    },
+    "zeta5/Zeta3/Analysis/ImaginaryPotential.lean": {
+      "bytes": 6704,
+      "sha256": "28fc0900acb21b82538da400a6209a3c9b613dddeca8db452646cea62c55c298"
+    },
+    "zeta5/Zeta3/Analysis/IntegerValueRate.lean": {
+      "bytes": 2678,
+      "sha256": "4c17f78531aa147015f264442f597d842b03fb4689a3aab8de6f5913a659a6cf"
+    },
+    "zeta5/Zeta3/Analysis/IntegralGramMajorant.lean": {
+      "bytes": 3138,
+      "sha256": "76d984c2edbbca145593e18be46fd4d65392e7e94ea2d347daf781e83ab5f872"
+    },
+    "zeta5/Zeta3/Analysis/NormRowRate.lean": {
+      "bytes": 4058,
+      "sha256": "b5e432b951fccdc936b993f4e98adfe06e9882873c5bb5c722fca6240d97236f"
+    },
+    "zeta5/Zeta3/Analysis/PhysicalComplexComparison.lean": {
+      "bytes": 7425,
+      "sha256": "e3745897410f1c6a51c42308e396254a5af43f72888481d40e8adcf0b6492dba"
+    },
+    "zeta5/Zeta3/Analysis/PhysicalEquilibrium.lean": {
+      "bytes": 8738,
+      "sha256": "c8b77eedd43848794e30d6eb52decb727dd4faa8fbe2cef358db7857dc3208f4"
+    },
+    "zeta5/Zeta3/Analysis/PhysicalGamma.lean": {
+      "bytes": 5521,
+      "sha256": "438f151cf04fc985d7486e8c839ec92d6942ed09ba46e046ca5ca3c3d54b2d46"
+    },
+    "zeta5/Zeta3/Analysis/PhysicalLinearMixture.lean": {
+      "bytes": 6624,
+      "sha256": "24f619ab2c4784c6c4e4f8f2fb91f2b2406a8a41c8621d8e4d88bca88097e5c3"
+    },
+    "zeta5/Zeta3/Analysis/PhysicalMass.lean": {
+      "bytes": 10884,
+      "sha256": "b6536259bf1956a2344566f2e58e4a3cb5015f6bdcdb15a23fd3921d88c43d7d"
+    },
+    "zeta5/Zeta3/Analysis/PhysicalNorm.lean": {
+      "bytes": 6861,
+      "sha256": "83847a88c445589ad4e4be919c674187d2bfe57ed7580dcec52dd62606162126"
+    },
+    "zeta5/Zeta3/Analysis/PhysicalNormTrial.lean": {
+      "bytes": 7994,
+      "sha256": "949dea5bfe648a24a806ad79043552d4c5d129c77d50aa57b53d019b1fe44328"
+    },
+    "zeta5/Zeta3/Analysis/PhysicalPotentialDeficit.lean": {
+      "bytes": 4937,
+      "sha256": "1e5d02e7637f43eb39e0e2a759234cf6db86255bade5127f46c964d8000a7267"
+    },
+    "zeta5/Zeta3/Analysis/PhysicalProfile.lean": {
+      "bytes": 9137,
+      "sha256": "f3e2c3a521dad47e86509f6712ff5ea30cf7111ae37393e9566f9b7d8b3a5378"
+    },
+    "zeta5/Zeta3/Analysis/PhysicalProfileGrid.lean": {
+      "bytes": 1913,
+      "sha256": "e37f4dc46c7c2875c8e88765e8cd4c946f18996bdf188f5792c8606556899bf4"
+    },
+    "zeta5/Zeta3/Analysis/PhysicalTrial.lean": {
+      "bytes": 7599,
+      "sha256": "b5d1d4b19922d844dcd007a921e36a30f2b8228428a5e2f91f1a947699ec18b1"
+    },
+    "zeta5/Zeta3/Analysis/PhysicalTrialParameters.lean": {
+      "bytes": 4045,
+      "sha256": "ea760dd285a93c9241331ae83ef52707b3d015ae556dc01b8ea3254691dd4783"
+    },
+    "zeta5/Zeta3/Analysis/QuadraticResolvent.lean": {
+      "bytes": 6626,
+      "sha256": "95e7f1a04e220b972e856b58932d5d7ca08412741575dd439fb740460445cc5f"
+    },
+    "zeta5/Zeta3/Analysis/RadialMixtureGrowth.lean": {
+      "bytes": 4347,
+      "sha256": "a2b490a712ac48c5756ec50f3102584518e4412fbdb55bda0c15d21b45096f34"
+    },
+    "zeta5/Zeta3/Analysis/ResponseRegularity.lean": {
+      "bytes": 972,
+      "sha256": "c07f020430475dd1e31e45419c0c9715ee98d74cf39b92ff88c4d77ecca1fe82"
+    },
+    "zeta5/Zeta3/Analysis/SimpleResponse.lean": {
+      "bytes": 5329,
+      "sha256": "d8b5206bfb20d0cbeddf82ed154d77eafe3d13bc1de608791bdc384eed103bac"
+    },
+    "zeta5/Zeta3/Analysis/SpectralLogProduct.lean": {
+      "bytes": 6640,
+      "sha256": "b8373a5393349ea5a424d4d20759db416e40eae9f6efd8f7154c28aad96190cd"
+    },
+    "zeta5/Zeta3/Analysis/SpectralLogRate.lean": {
+      "bytes": 5601,
+      "sha256": "6e6ad2e510d55d0ebbbca2fe71ab221f68b1cdf2be5a9a7c53cb0b1d01f046ca"
+    },
+    "zeta5/Zeta3/Analysis/SpectralMinmax.lean": {
+      "bytes": 3489,
+      "sha256": "41dd80b06e041ae7c4356264de0e660f57e0bc3a033697e3b45d6da277196e5c"
+    },
+    "zeta5/Zeta3/Analysis/SpectralMinmaxOperator.lean": {
+      "bytes": 1976,
+      "sha256": "d374657cd66a1a6327a886b80d9e0a99cd8c1094f8a88d506403620b8547519e"
+    },
+    "zeta5/Zeta3/Analysis/SpectralResponseRate.lean": {
+      "bytes": 4441,
+      "sha256": "ecf7cb63f9b3fbc3ba8676986560114560b517a3e8285a9c433b29bd680bb3d2"
+    },
+    "zeta5/Zeta3/Analysis/WindowGramBound.lean": {
+      "bytes": 2673,
+      "sha256": "c7f3f213fcdea5060e4ebcebd13fb10b4ac41b3ce19ef84ac4d9bd8928f45c59"
+    },
+    "zeta5/Zeta3/Arithmetic/AffineCertificate.lean": {
+      "bytes": 5846,
+      "sha256": "8c7d28a5d307481c92cd54929acfd60f6d66b6c6469cbf7363c70a178c3c8fc1"
+    },
+    "zeta5/Zeta3/Arithmetic/AtomicMinors.lean": {
+      "bytes": 5019,
+      "sha256": "d3c4c90f3a1c4b568da18dd26b75f0036f351f1d5bea28b90ff8ad52e106472c"
+    },
+    "zeta5/Zeta3/Arithmetic/BernoulliMoments.lean": {
+      "bytes": 4057,
+      "sha256": "ab27332783190cf37036c9f58a3466db72e6b3b20f9819f798f7b3cf691978ef"
+    },
+    "zeta5/Zeta3/Arithmetic/BernoulliReduction.lean": {
+      "bytes": 4269,
+      "sha256": "84ea2a75e3e87a2845b6b7c455677f313c39629c12a8a92dd733b845b6ecefdc"
+    },
+    "zeta5/Zeta3/Arithmetic/BernoulliReflection.lean": {
+      "bytes": 3270,
+      "sha256": "9a3efcd45fd9dac41e9c54d1b13fcb22112f03cdf7aca1e990f54f0bbffce43b"
+    },
+    "zeta5/Zeta3/Arithmetic/CellCoverage.lean": {
+      "bytes": 3419,
+      "sha256": "dd74217882bc697025a4314ea02fbe5ff0c1a15326857fe921c7ab55beecfab3"
+    },
+    "zeta5/Zeta3/Arithmetic/CellParameters.lean": {
+      "bytes": 4808,
+      "sha256": "a58d37e573cd85e2d18005c04a77f6b2b7e770d0f5aea9030c48b5117482456d"
+    },
+    "zeta5/Zeta3/Arithmetic/ClusterCosts.lean": {
+      "bytes": 2485,
+      "sha256": "10eb2f888266aa3dca1967f7208915ec901b1d7f0a3db220abc788def8910d97"
+    },
+    "zeta5/Zeta3/Arithmetic/ContinuousProfiles.lean": {
+      "bytes": 4872,
+      "sha256": "fbdd6a115e42e403b0bfdb8b92100536b467c0b0cbc1c6437f68ce9d5ea57d36"
+    },
+    "zeta5/Zeta3/Arithmetic/FactorialPrefactor.lean": {
+      "bytes": 3368,
+      "sha256": "230e7d911e0ec3a041f4cff3936b5344574ea93a3fc487615116292ec95ed70c"
+    },
+    "zeta5/Zeta3/Arithmetic/FeatureCounts.lean": {
+      "bytes": 5697,
+      "sha256": "369f3264c7b507c7c472d3b96fc4d5401d41e2c36ab1e678a76f09adb73e20e5"
+    },
+    "zeta5/Zeta3/Arithmetic/FeatureFirstLayer.lean": {
+      "bytes": 4281,
+      "sha256": "fc57f00979bb0617ce61a7babf86d7e74bca40af08d64e91950af1d8b3e45f20"
+    },
+    "zeta5/Zeta3/Arithmetic/FeatureProfile.lean": {
+      "bytes": 7204,
+      "sha256": "5c5e2d4da1730bac1651cfb3dbaa0d6d76f6da96c3c18b40bb08e0ee9879421b"
+    },
+    "zeta5/Zeta3/Arithmetic/FeatureRankEnvelope.lean": {
+      "bytes": 5723,
+      "sha256": "0bc8dfcf50098cf037df6bfc57761dd333edf0a38e1c39adaf7760082cc9b87d"
+    },
+    "zeta5/Zeta3/Arithmetic/FinsetAtomicMinors.lean": {
+      "bytes": 1904,
+      "sha256": "1c7f8fdab259a40559e83e797ac55ec469d1b3bb38c49ed12826f04756fa6314"
+    },
+    "zeta5/Zeta3/Arithmetic/FirstCellsData.lean": {
+      "bytes": 551383,
+      "sha256": "3479f873b1e82ce7c127a64700a6b12a33bb0e3fc584947487688ddf937a2404"
+    },
+    "zeta5/Zeta3/Arithmetic/FirstProfileComparison.lean": {
+      "bytes": 6464,
+      "sha256": "2bb2d736046cde57f23e4faf114ff7e873fff9a63e4b7e7fe0c27c14a32beb1e"
+    },
+    "zeta5/Zeta3/Arithmetic/FloorStrip.lean": {
+      "bytes": 1889,
+      "sha256": "7d1f057859f3884e9a34793f1465c9b5f62ee81af1f5cf07e14d00da02ad6717"
+    },
+    "zeta5/Zeta3/Arithmetic/FullCellParameters.lean": {
+      "bytes": 4119,
+      "sha256": "e3d1063a071e65d035109a0c6cc972884b16cc5e941298b819f41c624b4d5db7"
+    },
+    "zeta5/Zeta3/Arithmetic/FullCellsData.lean": {
+      "bytes": 602195,
+      "sha256": "14b096e3a927d232c65f4c75b60da9f4210380992babc27c909d1b43a5edb6d6"
+    },
+    "zeta5/Zeta3/Arithmetic/FullProfileCells.lean": {
+      "bytes": 3871,
+      "sha256": "c7129e288d1d1dde436e3bfaeeebce4ac4ec34c46de126047aaa471864e56153"
+    },
+    "zeta5/Zeta3/Arithmetic/FullProfileComparison.lean": {
+      "bytes": 5095,
+      "sha256": "41367464be0441256454100113ddf301e0ebe9efb0cca44b8972092dad0c3308"
+    },
+    "zeta5/Zeta3/Arithmetic/HarmonicReduction.lean": {
+      "bytes": 2946,
+      "sha256": "5ed4ae8f6c34352495c10b52c010d90bcd432e193589697724905321ff9ae4e6"
+    },
+    "zeta5/Zeta3/Arithmetic/LargePrimes.lean": {
+      "bytes": 5901,
+      "sha256": "c0b0cc4d09931b2f9d79daaef358a7c2dc165c307c464cbb946b8422075d679a"
+    },
+    "zeta5/Zeta3/Arithmetic/LocalDeterminant.lean": {
+      "bytes": 5142,
+      "sha256": "d9e2038524ec6a9c80f9bffc78f3710c4ed69341de92d818f3fea87aedcf70ee"
+    },
+    "zeta5/Zeta3/Arithmetic/LocalDistribution.lean": {
+      "bytes": 2164,
+      "sha256": "662b427c3c56afd06ffd0a9da55c56676f627cc5a6b5f6f5befae9df65714f6f"
+    },
+    "zeta5/Zeta3/Arithmetic/LocalFunctional.lean": {
+      "bytes": 11089,
+      "sha256": "4da72400f7884c3e58eb4c3d1a7ac387e3ad57186169bb84374ce8fd19e4e6af"
+    },
+    "zeta5/Zeta3/Arithmetic/LocalLinear.lean": {
+      "bytes": 4680,
+      "sha256": "212ae9ab4cbe43a94afa899116be0f58d50022875537d6277380a71eda012dcd"
+    },
+    "zeta5/Zeta3/Arithmetic/LocalParity.lean": {
+      "bytes": 4447,
+      "sha256": "2b2cd21cb440d0928d980f1b69e53b53373ef35559d6920c0d31013ae9a59f20"
+    },
+    "zeta5/Zeta3/Arithmetic/LocalPrecision.lean": {
+      "bytes": 5948,
+      "sha256": "46c08d2db99624fd3cfe69580948f67aaff0c33c861a233fb03c3dccf756f625"
+    },
+    "zeta5/Zeta3/Arithmetic/LocalQuotient.lean": {
+      "bytes": 2112,
+      "sha256": "70bbe5cdc81a59681c8c9663cd68c6ffb4f30983db3681e066b2cf6ef6ff3308"
+    },
+    "zeta5/Zeta3/Arithmetic/LocalResidueCoordinates.lean": {
+      "bytes": 6407,
+      "sha256": "dbf982e807f7ad0f492f35478b934fc742226141de153a7f8593c03e47a5dae3"
+    },
+    "zeta5/Zeta3/Arithmetic/LocalRestriction.lean": {
+      "bytes": 2497,
+      "sha256": "e42751b51e9b2f4e713ebfa9dca98654110ea483647cf6f660dc4f52d5d48574"
+    },
+    "zeta5/Zeta3/Arithmetic/LocalSecondForm.lean": {
+      "bytes": 5739,
+      "sha256": "55120c1d57f2b241b31ec7c062d2c20e67aae38da3a497919aad65c359ff3ffe"
+    },
+    "zeta5/Zeta3/Arithmetic/LocalUnitReduction.lean": {
+      "bytes": 5378,
+      "sha256": "9d847289a9de04ce811373acbc461338c3841adeebafef53dd60802c74fcac18"
+    },
+    "zeta5/Zeta3/Arithmetic/LowPairs.lean": {
+      "bytes": 4276,
+      "sha256": "339dfdd796392807b8fc7c247fb890459dfcb2f2a01dbd509d5fd161932bf7e4"
+    },
+    "zeta5/Zeta3/Arithmetic/MaximalSecondQuotient.lean": {
+      "bytes": 5132,
+      "sha256": "2638ed66ba9bc711793c322bc3d46ec046e28b89f2c63a73ae215c182bedcbaa"
+    },
+    "zeta5/Zeta3/Arithmetic/MixedResidues.lean": {
+      "bytes": 6354,
+      "sha256": "3a7d0aea29bb63cedbafd6dacee28ae29e366eb1d3b0bd7db9388b689b322130"
+    },
+    "zeta5/Zeta3/Arithmetic/Moments.lean": {
+      "bytes": 3228,
+      "sha256": "903d478e5d14fb57b5a64e54190312259abc0254953fe5ab6befb4b25e9b01d6"
+    },
+    "zeta5/Zeta3/Arithmetic/NonmaximalSecondQuotient.lean": {
+      "bytes": 8899,
+      "sha256": "57d0591b1867d9ec2e9ba1473a730ab2842e264c23cff0fa26dc0be46235ad74"
+    },
+    "zeta5/Zeta3/Arithmetic/NormalizerLocalBounds.lean": {
+      "bytes": 5261,
+      "sha256": "4789e86c1309f9a31c0a0f9af7c74b3c9f06a45163578a063e9f7fcb19dd593d"
+    },
+    "zeta5/Zeta3/Arithmetic/NormalizerPrimeTail.lean": {
+      "bytes": 5360,
+      "sha256": "ec51b7eadca26951eef947c9c6b4ca9764a2a766b010c3d8e3c4d176674236df"
+    },
+    "zeta5/Zeta3/Arithmetic/PhysicalLevels.lean": {
+      "bytes": 10571,
+      "sha256": "4a582c4be4c6fe9b9677b9c3ba271268a98a5bcb90cbe93ac7eb895839a3d939"
+    },
+    "zeta5/Zeta3/Arithmetic/PrimeAssembly.lean": {
+      "bytes": 7299,
+      "sha256": "2ab1d231ead0006f1a4618f5948bc051e62a0e4d3f60cc3ecd985d07c98ee506"
+    },
+    "zeta5/Zeta3/Arithmetic/PrimeRowStrip.lean": {
+      "bytes": 6707,
+      "sha256": "d6a1db2c1a620867d4fec301a8bd31e54624119a8536652ea3a798ead714e591"
+    },
+    "zeta5/Zeta3/Arithmetic/PrimeStripAssembly.lean": {
+      "bytes": 3877,
+      "sha256": "d8715d6ef7f304c264626c35b117a5181209ea75d62b08ac7977e841064a070c"
+    },
+    "zeta5/Zeta3/Arithmetic/ProfileAudit.lean": {
+      "bytes": 753,
+      "sha256": "4c50082eca2181052512822dd99ab389f91fee4dea64a0832e937ad52c9f9d80"
+    },
+    "zeta5/Zeta3/Arithmetic/ProfileCells.lean": {
+      "bytes": 6198,
+      "sha256": "b731d9b7c8a8d0c39a552754f1cbba2f950270fc0e73b9b97a8a7fccc65399cd"
+    },
+    "zeta5/Zeta3/Arithmetic/QuotientSupport.lean": {
+      "bytes": 6115,
+      "sha256": "6de218b3ff1d27f812b1d59c57647d1ec759dc347a4e24b33c829873464d01c8"
+    },
+    "zeta5/Zeta3/Arithmetic/ReflectedBounds.lean": {
+      "bytes": 4450,
+      "sha256": "d736272868bb42a4df308f1b8e68c501a3d639418ccc3fc17bed8ed065c28dc6"
+    },
+    "zeta5/Zeta3/Arithmetic/ReflectedDistribution.lean": {
+      "bytes": 6157,
+      "sha256": "579b14deaef8c36664ea7957e253007c829bf4f50605ace4064844113967633d"
+    },
+    "zeta5/Zeta3/Arithmetic/ReflectedMinors.lean": {
+      "bytes": 2894,
+      "sha256": "a0f0bf36dce497689a8e7d87afba81eedd45f28512b8477823dea2ff8ce10e1e"
+    },
+    "zeta5/Zeta3/Arithmetic/RegimeProfileComparison.lean": {
+      "bytes": 1944,
+      "sha256": "81fd05797ab2b5af797e4bdc99ef93892be8c44f5c10a936dc99814ff3a24adb"
+    },
+    "zeta5/Zeta3/Arithmetic/RestrictionPencil.lean": {
+      "bytes": 6157,
+      "sha256": "8e408585f9b18acffb72119a3c97585cccd31200b28a522accd39bb794afba0e"
+    },
+    "zeta5/Zeta3/Arithmetic/SecondAssembly.lean": {
+      "bytes": 7185,
+      "sha256": "20711d106464e36cad070d079aab227632d1ff9c386328f6ff2391069c1cc72d"
+    },
+    "zeta5/Zeta3/Arithmetic/SecondBuckets.lean": {
+      "bytes": 7603,
+      "sha256": "334c9a1175c78557e8c3390685cd5a6e6c73ec9bfca9ae4d318097fc3312d650"
+    },
+    "zeta5/Zeta3/Arithmetic/SecondCostProfile.lean": {
+      "bytes": 7882,
+      "sha256": "a92efaf2e21f272a724758ffda11aa8bd627aecdca4b38cb88313bd17ab1c0e9"
+    },
+    "zeta5/Zeta3/Arithmetic/SecondExpressionBound.lean": {
+      "bytes": 3678,
+      "sha256": "9015a0afabf68f3300933df95bac12d03d57bb876fd5e901dabfdc9dcc2a0414"
+    },
+    "zeta5/Zeta3/Arithmetic/SecondInterpolation.lean": {
+      "bytes": 5245,
+      "sha256": "c717494e18e8255f9f484359b7f829abbd020d3b39f273eaab06618483a8687a"
+    },
+    "zeta5/Zeta3/Arithmetic/SecondKernelDeterminant.lean": {
+      "bytes": 12805,
+      "sha256": "d3a3af6e9aaf988e17407aef148a32851cb4571bfaa4b29125c35f8148df4b02"
+    },
+    "zeta5/Zeta3/Arithmetic/SecondMoment.lean": {
+      "bytes": 5545,
+      "sha256": "2e711d697a7b3bf8970ef318d9454138f9fcbd34b2bc845db1868273dd7939f0"
+    },
+    "zeta5/Zeta3/Arithmetic/SecondNumeric.lean": {
+      "bytes": 1145,
+      "sha256": "e55fa71ac51b59e63bd8fea05e39be11a435ae2b041cb81b56e38b8fcc65c36a"
+    },
+    "zeta5/Zeta3/Arithmetic/SecondProfileComparison.lean": {
+      "bytes": 3243,
+      "sha256": "35486281a1b08b75c98f67c54ae5d57cd4a5f6c358c2faf4c2702e20abf23d9c"
+    },
+    "zeta5/Zeta3/Arithmetic/SecondResidues.lean": {
+      "bytes": 9731,
+      "sha256": "19835890999365c89e49072c52b270149117fb18f89a2af2f3f1c06acf654854"
+    },
+    "zeta5/Zeta3/Arithmetic/SecondScaling.lean": {
+      "bytes": 5839,
+      "sha256": "5c9b1f04074e77158e2839d52d62cde49404b96f2b892e0121e2b6bb554ba67b"
+    },
+    "zeta5/Zeta3/Arithmetic/SecondShapeScaling.lean": {
+      "bytes": 3026,
+      "sha256": "0fa3afe4669d59350230f437ac4b09e105a8097a6c65e8f3b9f71447ee3064a8"
+    },
+    "zeta5/Zeta3/Arithmetic/SecondTransport.lean": {
+      "bytes": 4916,
+      "sha256": "dfa77c296324e0c2030d73a84266da3b6a67b872ae95316c455c51753a2a4e41"
+    },
+    "zeta5/Zeta3/Arithmetic/SecondTransportActual.lean": {
+      "bytes": 6922,
+      "sha256": "79396c7374c1988d36bb0104910e3a3a37216395946bb1a7e312e560e42c795a"
+    },
+    "zeta5/Zeta3/Arithmetic/SecondTransportAlgebra.lean": {
+      "bytes": 8312,
+      "sha256": "471af23af4b2a43a3d27cbd9cfc1009d874c4de04106641dca5a1673ab976b30"
+    },
+    "zeta5/Zeta3/Arithmetic/SecondTransportClosed.lean": {
+      "bytes": 1283,
+      "sha256": "ddba3b91820ea7cd56eb7c0d57e6147c05a413ed4bb62187882aa95d98873f32"
+    },
+    "zeta5/Zeta3/Arithmetic/SecondTransportLift.lean": {
+      "bytes": 1651,
+      "sha256": "5d8ef8e677853e488628b29cd76fa3f65eed7936d9634d6969d1dde9c64dbb9f"
+    },
+    "zeta5/Zeta3/Arithmetic/SecondTransportPencil.lean": {
+      "bytes": 4157,
+      "sha256": "ed85a90db50a54cfb46892f878f35adc82d8f6cbcc0e5841cc3f4b4567388aab"
+    },
+    "zeta5/Zeta3/Arithmetic/SecondTransportReduction.lean": {
+      "bytes": 11072,
+      "sha256": "2974db839cb66392f6155e7162b98dd9037c0b239cbd40207642c19e2179d1c0"
+    },
+    "zeta5/Zeta3/Arithmetic/SecondVanishing.lean": {
+      "bytes": 5405,
+      "sha256": "3bcf216ba5757f35848611acc3e6801675a717a2ed4f70692d05287e6c140893"
+    },
+    "zeta5/Zeta3/Arithmetic/SmallPrimeEntries.lean": {
+      "bytes": 4161,
+      "sha256": "c7a2f60dab78d676e34117006a761c105b0d70c1d725d19b620a9c5646428635"
+    },
+    "zeta5/Zeta3/Arithmetic/SmallPrimeError.lean": {
+      "bytes": 4177,
+      "sha256": "67afc49284d0c2389cd9345c309f239baca3ed09e281fca0329cca922f1fed82"
+    },
+    "zeta5/Zeta3/Arithmetic/SmallPrimeProper.lean": {
+      "bytes": 5950,
+      "sha256": "5c91130a65011872214d4652e12b859c1774c83aab6729a37d05cf04b366ccd3"
+    },
+    "zeta5/Zeta3/Arithmetic/SmallPrimeQuotient.lean": {
+      "bytes": 4036,
+      "sha256": "03f72ee8ba01d171051d012bf2e8ed30462175ec7f0cdceb1a6788371bd5728e"
+    },
+    "zeta5/Zeta3/Arithmetic/SmallPrimeSum.lean": {
+      "bytes": 6018,
+      "sha256": "19b9eef3f77a9e82eee6ed1c81d1eeb2d89f1fdd7d26180b96ac1f81819d2ac1"
+    },
+    "zeta5/Zeta3/Arithmetic/StageFeatureBounds.lean": {
+      "bytes": 3325,
+      "sha256": "2edec3e177276a863566d191c440fb72be541d9ecedc1d0a321215516b857ac4"
+    },
+    "zeta5/Zeta3/Arithmetic/StieltjesReflection.lean": {
+      "bytes": 6587,
+      "sha256": "51c216e38318f96c902fe13515a1d8fa696f95bfd6593b30d7ef590daa33598a"
+    },
+    "zeta5/Zeta3/Arithmetic/StieltjesValuations.lean": {
+      "bytes": 4031,
+      "sha256": "fd9492821932ad92736dc940a8c7922803e415758d3ca1b64f3b464c635d61cb"
+    },
+    "zeta5/Zeta3/Arithmetic/UniversalFunctional.lean": {
+      "bytes": 4661,
+      "sha256": "42a8fd70932847aeb55fed3b7452d9e1c78fb3aedb9a403baf7d3406bd98f66c"
+    },
+    "zeta5/Zeta3/Arithmetic/UpperBandAssembly.lean": {
+      "bytes": 6490,
+      "sha256": "8f38ca001b288f91c0967c99bba56bf1d9bec239291974ddbd60a5905d4a4ce7"
+    },
+    "zeta5/Zeta3/Arithmetic/UpperProfileComparison.lean": {
+      "bytes": 7835,
+      "sha256": "ab4f4a94683be89dd27afb6352c5d5d6d7d67ea8bdd236bb7efe44a871fc84f1"
+    },
+    "zeta5/Zeta3/Arithmetic/WeightedDivision.lean": {
+      "bytes": 1917,
+      "sha256": "e89589eb64d59588a4191a3c40a8d0b84813bd27e29011be12c12f8472e6c5b0"
+    },
+    "zeta5/Zeta3/Arithmetic/ZeroClass.lean": {
+      "bytes": 2402,
+      "sha256": "c20b8beded5a064864ea55610d01a3a4181808f07900f50c8e3c32f5ea4e3318"
+    },
+    "zeta5/Zeta3/Arithmetic/first-cells-report.json": {
+      "bytes": 1550,
+      "sha256": "6c36ad5d129b48a9e9d45e04907931f65dd52d160ada34be58f8d44e3eca2d6f"
+    },
+    "zeta5/Zeta3/Arithmetic/first-cells.tsv": {
+      "bytes": 399620,
+      "sha256": "ab1d44eeb49867dd90a0e187d01d4cc14587d840a41d36b288d95684378f3ad3"
+    },
+    "zeta5/Zeta3/Arithmetic/full-cells-report.json": {
+      "bytes": 2014,
+      "sha256": "b5a75019ed6e2833934d3b559bcf45e322eb3b166f21e905c7fa65372356100a"
+    },
+    "zeta5/Zeta3/Arithmetic/full-cells.tsv": {
+      "bytes": 436220,
+      "sha256": "4bbe288797ce8bdbe3908bf4e3bca50dfca1782874eaa04160734a228fe0b43c"
+    },
+    "zeta5/Zeta3/Arithmetic/generate_first_cells.py": {
+      "bytes": 5765,
+      "sha256": "e359e8e915c1c1e3065fcda7829cc9b592fdac9a9826b7dfb98d2dc370317bbb"
+    },
+    "zeta5/Zeta3/Arithmetic/generate_full_cells.py": {
+      "bytes": 6865,
+      "sha256": "d799208965541ca47bdaaf32d5d41ead99f332fdeb1d35bc62a08ed645097bac"
+    },
+    "zeta5/Zeta3/Certificate/Analytic.lean": {
+      "bytes": 2829,
+      "sha256": "7da84d0f4d5d5ecac6386048b4f376b56c3374d85c91eca61562632a75c606a9"
+    },
+    "zeta5/Zeta3/Certificate/ArithmeticFinite.lean": {
+      "bytes": 1237,
+      "sha256": "bce296c28fbba42785bdf9302da2f6152406c2a3ab5da9642e853d4f233f8256"
+    },
+    "zeta5/Zeta3/Certificate/FiniteNumerics.lean": {
+      "bytes": 2488,
+      "sha256": "65b2c577b3da070974c59af8c5f12058d97f7677b4444e6a6fbe8b2be5bd08c3"
+    },
+    "zeta5/Zeta3/Construction/Asymmetric.lean": {
+      "bytes": 10828,
+      "sha256": "3c59ba57b3c98f9eba5105d41c707b90684104db2b2af7c106c8cb5544fc3e80"
+    },
+    "zeta5/Zeta3/Construction/BernoulliCubic.lean": {
+      "bytes": 5636,
+      "sha256": "711b1e25443edde2d8c1ee773c12bcbc86f53db4999928ce61f44b6bc9c3c4cb"
+    },
+    "zeta5/Zeta3/Construction/CenteredProducts.lean": {
+      "bytes": 5784,
+      "sha256": "586cfdcc5532b494d812b74b91f670e1a27d65288fddfe0002d73e6ad4f0a632"
+    },
+    "zeta5/Zeta3/Construction/CubicCompatibility.lean": {
+      "bytes": 9779,
+      "sha256": "5be0942aaf19fd0cb824de6105125e50aa08712922c4b7174953667bb96a88b9"
+    },
+    "zeta5/Zeta3/Construction/CubicPearson.lean": {
+      "bytes": 8729,
+      "sha256": "93fa8b574eb78ce52a0a4188fb5666c0b12e0b6a135e76994f6cca277c5af221"
+    },
+    "zeta5/Zeta3/Construction/CubicRationalFunctional.lean": {
+      "bytes": 7823,
+      "sha256": "2a1338a4cf6a12fa54c0132e5a316a7276d80e8c7e62f5f36df648e2977d62c0"
+    },
+    "zeta5/Zeta3/Construction/CubicWeightCompatibility.lean": {
+      "bytes": 5835,
+      "sha256": "54b7280003a9f01ecd2fe76553d1a06546810b795cb3197fae2d8f4bc95948f1"
+    },
+    "zeta5/Zeta3/Construction/Determinant.lean": {
+      "bytes": 4639,
+      "sha256": "49f722f4af7b5493c5646a80761396f99ed6a59f2e354cd92b59e09a58e5c761"
+    },
+    "zeta5/Zeta3/Construction/FeatureCentral.lean": {
+      "bytes": 5952,
+      "sha256": "b781e6545511777c732beaa37476bdf350e397cd5408989dfbcea4ec8155f87e"
+    },
+    "zeta5/Zeta3/Construction/FeatureComplete.lean": {
+      "bytes": 9274,
+      "sha256": "9cf1faa7356246afa9da3ef7626138ea8e9211d9eeb1d33d31f98da1453d14df"
+    },
+    "zeta5/Zeta3/Construction/FeatureKernel.lean": {
+      "bytes": 7151,
+      "sha256": "0044fdeb831a9a20782b513fdf3451a870ac363a90b6404610192d7273a5cd25"
+    },
+    "zeta5/Zeta3/Construction/FeatureLinear.lean": {
+      "bytes": 4470,
+      "sha256": "10403dfe3feb780bdc5702a6ff9afb5c93b986bfefb140dfbf5d26b30849be06"
+    },
+    "zeta5/Zeta3/Construction/FeatureMatrices.lean": {
+      "bytes": 6398,
+      "sha256": "991cc3bf8ff0ca322bae4238d5bd28f9f359dfbc5a14608a90c000e767d74b7b"
+    },
+    "zeta5/Zeta3/Construction/FeatureNodes.lean": {
+      "bytes": 6390,
+      "sha256": "aac2dd1d4eac5bdf072fa6b7e453d12ffdc7b0ebc4992497dc34f7237c4d9a6c"
+    },
+    "zeta5/Zeta3/Construction/FeatureNumbers.lean": {
+      "bytes": 4593,
+      "sha256": "607520281c1d075df07fed37126588a7282575e47574c92b66c58424f328cbb3"
+    },
+    "zeta5/Zeta3/Construction/FeatureRank.lean": {
+      "bytes": 5654,
+      "sha256": "92792ee99f923f60fba25e1732267153537e956c89c5ae83f74abdfa0f659c6d"
+    },
+    "zeta5/Zeta3/Construction/FeatureReduction.lean": {
+      "bytes": 5328,
+      "sha256": "9e367f7255504de427611720fe3c3e1271bfa70771805b8bdac2ee9ada69ca2d"
+    },
+    "zeta5/Zeta3/Construction/FeatureResidue.lean": {
+      "bytes": 2341,
+      "sha256": "9a0e537247666295681fee1c64c5dab7183bc998bc7bc409be9c5118ec19ec86"
+    },
+    "zeta5/Zeta3/Construction/FeatureSeed.lean": {
+      "bytes": 8172,
+      "sha256": "86c7f20bea708ad3dba0b4199e94fb7c84f3ebd6f3ea1698af71a2961706a3a5"
+    },
+    "zeta5/Zeta3/Construction/FeatureTopRank.lean": {
+      "bytes": 4567,
+      "sha256": "8a1e22336378f0cefd98d9d5d895399f452e034f0ec2d85a375a02d05689bd8b"
+    },
+    "zeta5/Zeta3/Construction/Functional.lean": {
+      "bytes": 6029,
+      "sha256": "f4797715513cf77f4a86e925ed052ec5401c6f4b964da9bd7962cfc96c933cf5"
+    },
+    "zeta5/Zeta3/Construction/HankelAdjoint.lean": {
+      "bytes": 2073,
+      "sha256": "da3035a989a29c2300808087bffa89cab953da3ba06dbba81803e53140a77615"
+    },
+    "zeta5/Zeta3/Construction/HankelCoordinates.lean": {
+      "bytes": 3156,
+      "sha256": "7a8194506596b6600c2ecc8ab1a16acba4452163c47f4ad835c721809b14293d"
+    },
+    "zeta5/Zeta3/Construction/HankelDivisibility.lean": {
+      "bytes": 3461,
+      "sha256": "e4757e46d77196f21ab97303356a510c43139640afd00cc3b66efc5f5eb2ac34"
+    },
+    "zeta5/Zeta3/Construction/HankelExtension.lean": {
+      "bytes": 6026,
+      "sha256": "639172b0eaae9c50d2176bdd30bdc0d024603a44ae3840009f605bcb27b90cf2"
+    },
+    "zeta5/Zeta3/Construction/HankelKernel.lean": {
+      "bytes": 6757,
+      "sha256": "e88b120b720ca00471f371a27edbd91d9d7ecde7d6e7c40b735742218bcfc78b"
+    },
+    "zeta5/Zeta3/Construction/HankelRecurrence.lean": {
+      "bytes": 4922,
+      "sha256": "526ab9a61bcf4a1a9782861f7fb911f10da49764f664555b6450491c948721fd"
+    },
+    "zeta5/Zeta3/Construction/IntegerPartialFractions.lean": {
+      "bytes": 3212,
+      "sha256": "0c77b9e9b8f2e2f479bff21d5d90166ff822a4d901114b94b56f7f67627564fe"
+    },
+    "zeta5/Zeta3/Construction/KernelCancellation.lean": {
+      "bytes": 5368,
+      "sha256": "6ff723d6cac22133d48187c750ef7c1b60375ad6fb43a303be10c6f96b00a4f4"
+    },
+    "zeta5/Zeta3/Construction/Nullity.lean": {
+      "bytes": 5130,
+      "sha256": "6be5e54eed8237f8ddfb4c5b1a1e2efaf60ee0d2e45f01a2c31ca9c2d0766094"
+    },
+    "zeta5/Zeta3/Construction/PearsonAdjoints.lean": {
+      "bytes": 3483,
+      "sha256": "10235598cd40337b71863f6ddb58d831de998a8c67ba5b38926c94d65c7f0010"
+    },
+    "zeta5/Zeta3/Construction/PearsonCompression.lean": {
+      "bytes": 6876,
+      "sha256": "7e621c420785cc533665660df933047f4dbbb8506665bd471b90279b7b9dcd5e"
+    },
+    "zeta5/Zeta3/Construction/PearsonDegrees.lean": {
+      "bytes": 10245,
+      "sha256": "aabc401224125e96e4d7232734f40d2fabe80b63ba265ca2cd00dc194d807bf4"
+    },
+    "zeta5/Zeta3/Construction/PearsonRoots.lean": {
+      "bytes": 6757,
+      "sha256": "efa8b436d3a93674bf2393b537f3ccc98107b4c6576d744fc81a7c3618a0e741"
+    },
+    "zeta5/Zeta3/Construction/Prescription.lean": {
+      "bytes": 2759,
+      "sha256": "c5c761301b8e3620a50b351bed704b6dcbf7a68a4ce3ef6d9e92492c46d3b2b3"
+    },
+    "zeta5/Zeta3/Construction/RationalLaurent.lean": {
+      "bytes": 8469,
+      "sha256": "ea7bb559627699f93128a6d9a99ab13a2692fcacc30d325fc6f2e5254a05784c"
+    },
+    "zeta5/Zeta3/Construction/RationalReflection.lean": {
+      "bytes": 2825,
+      "sha256": "d26a30b1c98f6f2df6cd04884c5e390fb40f8cadf1d4d6959f3dde74836a917b"
+    },
+    "zeta5/Zeta3/Construction/SecondBasis.lean": {
+      "bytes": 7981,
+      "sha256": "1a0e284ee05b96bf125603f8cb6b1fd7c09b3b44ae620296874bd8985ba0ed42"
+    },
+    "zeta5/Zeta3/Construction/SecondCoordinates.lean": {
+      "bytes": 6144,
+      "sha256": "8656569e20214ff4480377bb4248b853e750dbcf65b0744bc80dc7f56e93f6de"
+    },
+    "zeta5/Zeta3/Construction/SecondDimensions.lean": {
+      "bytes": 1484,
+      "sha256": "0566be75e360dce3f2f20b28d55ec5d5d2032eb39234801a8646dc2622aadc45"
+    },
+    "zeta5/Zeta3/Construction/SecondFunctional.lean": {
+      "bytes": 4577,
+      "sha256": "7c3638a2807775ddf2b52dc00906fff997ef7e95fe6d05af66a573e93778abd9"
+    },
+    "zeta5/Zeta3/Construction/SecondKernelFeatures.lean": {
+      "bytes": 4212,
+      "sha256": "1632edfd6059075b4a1f5cf23f3a289cefd3ce2f4d6291585d44a39f37e1b31e"
+    },
+    "zeta5/Zeta3/Construction/SecondLinear.lean": {
+      "bytes": 3788,
+      "sha256": "7ed6b76f73d0f39687ad96f45446241a3f1dfd2f7c08ffeaec8b4555b7d01561"
+    },
+    "zeta5/Zeta3/Construction/SecondLocalRank.lean": {
+      "bytes": 5747,
+      "sha256": "1b6bfeae570330e707ce4341adc16ceafc9838bad2deb7b9cbbbc6ce0724f481"
+    },
+    "zeta5/Zeta3/Construction/SecondMatrix.lean": {
+      "bytes": 1819,
+      "sha256": "e0b3a76b4ba8ec244ef51cb368676b299ccba1c4fa04b4c33680a52abe4cf5c7"
+    },
+    "zeta5/Zeta3/Construction/SecondPairing.lean": {
+      "bytes": 3971,
+      "sha256": "503d6b01532c7b6f2d91531c16bbe6ec7c1c9441f64901e26cab5a20da855ffd"
+    },
+    "zeta5/Zeta3/Construction/SecondParityRank.lean": {
+      "bytes": 4234,
+      "sha256": "2b71c39a00b197c0bb1b57fcec05eea12fafe34a2b00b6df8301095372a1cfd5"
+    },
+    "zeta5/Zeta3/Construction/SecondRank.lean": {
+      "bytes": 7864,
+      "sha256": "5caffefd47b25a2b56b1c0f660679dfabda6bab2c62fbf22931902012ed024a7"
+    },
+    "zeta5/Zeta3/Construction/SecondReduction.lean": {
+      "bytes": 5889,
+      "sha256": "6875eabf18c00296eb430f9b3b3c9eea01f9d236cafc8e01fc981bf54129ad45"
+    },
+    "zeta5/Zeta3/Construction/SecondRoots.lean": {
+      "bytes": 5509,
+      "sha256": "415ec27539dab33a0e2f00b9f73fbdc56ff4bf43938985b62f5d521feb7ff936"
+    },
+    "zeta5/Zeta3/Construction/SharpDegree.lean": {
+      "bytes": 8716,
+      "sha256": "a7c9403448c416b215a9be79da9c0b638adb9d11931e6a428a90da88fe70a31d"
+    },
+    "zeta5/Zeta3/Construction/SimpleRational.lean": {
+      "bytes": 6021,
+      "sha256": "dce3f599c9d15ddea34daf026c1408e2e92d9518499306357172256a930aed75"
+    },
+    "zeta5/Zeta3/Endpoint/ArithmeticCellRate.lean": {
+      "bytes": 2087,
+      "sha256": "2641eec640634d59fc0c8b7564e07c8b7b93b7d2997e881196644665dd9c40d1"
+    },
+    "zeta5/Zeta3/Endpoint/CertifiedResponseRate.lean": {
+      "bytes": 3824,
+      "sha256": "ec14ec8e0600b14c08101b8241487d2d64e80dd38c344c61043e9b1ed585c808"
+    },
+    "zeta5/Zeta3/Endpoint/ConcreteRateTransfer.lean": {
+      "bytes": 4803,
+      "sha256": "a7c94d31f777114708bebeaca12934695dce53fb6188afafda80378717399337"
+    },
+    "zeta5/Zeta3/Endpoint/FiniteEvidence.lean": {
+      "bytes": 2777,
+      "sha256": "0015dfc061c80aab79fc2e2e0b47f4e79c22422eca33107c99034854718fe47d"
+    },
+    "zeta5/Zeta3/Endpoint/RiemannZetaBound.lean": {
+      "bytes": 1297,
+      "sha256": "4b6145ff842554caac5f0c2aeb0678ae56fd40bc60793766b108c052c59407ef"
+    },
+    "zeta5/Zeta3/FinalAudit.lean": {
+      "bytes": 624,
+      "sha256": "a42f230a3fd37bb207d0a69d5e71befb2736ec12055fda65598f0e7d6385cfd4"
+    },
+    "zeta5/Zeta3/Hybrid/ExternalArb.lean": {
+      "bytes": 2197,
+      "sha256": "49a689ca95676fdc485eba4dd5badc6fa4868888bc6b4a9be5b730d15ac4e5c1"
+    },
+    "zeta5/Zeta3/Hybrid/ExternalArithmetic.lean": {
+      "bytes": 1163,
+      "sha256": "1abd421a2ed5202a3fc84f353e67a1bc416723594d81c4bbcaeb0fe8a756ed97"
+    },
+    "zeta5/Zeta3/Hybrid/Verified.lean": {
+      "bytes": 1413,
+      "sha256": "1c27ad94ce540ce3ce7a1ed11e4f46bfd4f33fb16db78d5af4542898f230c6ca"
+    },
+    "zeta5/Zeta3/Parameters.lean": {
+      "bytes": 3844,
+      "sha256": "2ec4a0698474213dcf6f7c6ca82365569d6834dfdb66fd40eb9f29d2b7c13a70"
+    },
+    "zeta5/Zeta3/StageAudit.lean": {
+      "bytes": 2797,
+      "sha256": "baf8b97d015d379bfb068b22288e68629f46fd0a61f1d27dba3377f6615837f8"
+    },
+    "zeta5/Zeta3/Transfer/Approximation.lean": {
+      "bytes": 5910,
+      "sha256": "c21025f6eefbb62edb252830bf782c34dd1afd4a72211c20c6a3b930a80762c6"
+    },
+    "zeta5/Zeta3/Transfer/Audit.lean": {
+      "bytes": 1491,
+      "sha256": "a07d6585ff231045e1767c3116886d6e0fda732c7043dc6ea54b6f4bc573e57d"
+    },
+    "zeta5/Zeta3/Transfer/Cauchy.lean": {
+      "bytes": 6192,
+      "sha256": "c7623e77f294e16e7a9b32075219d60d91acce30d49e7eee04b04b37df9e2f89"
+    },
+    "zeta5/Zeta3/Transfer/ConcreteMultiplicity.lean": {
+      "bytes": 3891,
+      "sha256": "11039f3871dbcb8d4b921e041e6506c400ac548df402b1cd8a73d4cad0f149cf"
+    },
+    "zeta5/Zeta3/Transfer/DefinitePencil.lean": {
+      "bytes": 5308,
+      "sha256": "0ef331097343e91614cbd5b0fda213fdae3f06cfd598671579aa952bc9789954"
+    },
+    "zeta5/Zeta3/Transfer/DiagonalPencil.lean": {
+      "bytes": 9504,
+      "sha256": "bd6fe46b54dd59189bb02ae32ddfc5ffa8ba8c9bd7d36a9f8f93061ad134e1ce"
+    },
+    "zeta5/Zeta3/Transfer/IntegerJets.lean": {
+      "bytes": 3944,
+      "sha256": "38d331dd063d9fb7ea6e103c51d71fb1e19cecd970c58c0162b065fc91eadea7"
+    },
+    "zeta5/Zeta3/Transfer/KernelPositivity.lean": {
+      "bytes": 4333,
+      "sha256": "62c092b99ddaab9ab008fe207e127bb3f1344ff7f5298880f23d3154f30e558b"
+    },
+    "zeta5/Zeta3/Transfer/LogStages.lean": {
+      "bytes": 4911,
+      "sha256": "15c83ef16a2cd7e55d9e358767707abf39de5f807df4970c01705b140b0da059"
+    },
+    "zeta5/Zeta3/Transfer/Multiplicity.lean": {
+      "bytes": 2298,
+      "sha256": "a75cc6e33b91d9a3d867d3d686590189725279ba85cae27790beaefe2ee129fc"
+    },
+    "zeta5/Zeta3/Transfer/Response.lean": {
+      "bytes": 3966,
+      "sha256": "e2cfaafb7b60a0f2c1eba98e1ef7597fe492a9e502b328782b4488fb0403def1"
+    },
+    "zeta5/Zeta5.lean": {
+      "bytes": 1788,
+      "sha256": "e744fa1ecfdcb43529e4338dba0455d3248948922760dabf4f7db26dcbef6c92"
+    },
+    "zeta5/Zeta5/Analysis/AbelKernel.lean": {
+      "bytes": 6357,
+      "sha256": "9d87e805a7547a66c96a2a5b1a79e5c2029d352ad8a3f4883a4a6f89413b598c"
+    },
+    "zeta5/Zeta5/Analysis/AnalyticError.lean": {
+      "bytes": 3995,
+      "sha256": "5c45002a599fdeffa19430a013a2309f38b7484530678c2229e624c1cd319226"
+    },
+    "zeta5/Zeta5/Analysis/ArcsineGrowth.lean": {
+      "bytes": 3795,
+      "sha256": "a1d17a2a481abe64618db502bd2296f0af39ae7a6f1842d53040ac78b34907cd"
+    },
+    "zeta5/Zeta5/Analysis/ArcsinePotential.lean": {
+      "bytes": 11421,
+      "sha256": "3ad026449675d6d50d4824737decc0bcd1ba7a5f113e8501d4d6cefd0f1c215f"
+    },
+    "zeta5/Zeta5/Analysis/ArithmeticRate.lean": {
+      "bytes": 6690,
+      "sha256": "9b669540b90c7bf80283e09d841ee5e27534467adf55ee02c4cd27be281e8461"
+    },
+    "zeta5/Zeta5/Analysis/AuxiliaryMeasure.lean": {
+      "bytes": 7578,
+      "sha256": "35b878edc0b0748305ee5fd03fa4d4f2b276a5ba78adf784cf69976762565d92"
+    },
+    "zeta5/Zeta5/Analysis/AuxiliaryPotential.lean": {
+      "bytes": 5376,
+      "sha256": "d7dfb5d001c34c75b7f9d5a96b5872bead38effa79a173ac583c10cee937f7b2"
+    },
+    "zeta5/Zeta5/Analysis/AuxiliarySmallBall.lean": {
+      "bytes": 10114,
+      "sha256": "88f08a7921b58f25e0385b2399222fee421cb2157273c00efadecda6650b56ea"
+    },
+    "zeta5/Zeta5/Analysis/DeterminantRate.lean": {
+      "bytes": 4768,
+      "sha256": "a5e4aacf1a999d87b6baf6baae88ff53d92b0ec6538b9f3d3a2495c867e792fa"
+    },
+    "zeta5/Zeta5/Analysis/EquilibriumConstant.lean": {
+      "bytes": 3955,
+      "sha256": "377cc6e8d6b32c42942c42703cf16b35b8df276cd3e7520859c6f5ce4e89a6b2"
+    },
+    "zeta5/Zeta5/Analysis/EquilibriumKernel.lean": {
+      "bytes": 4798,
+      "sha256": "0f7a43fdbda3cf22b1257c567fcd0e353cdc0b2d08ab72b232c077e49613a89c"
+    },
+    "zeta5/Zeta5/Analysis/ExternalEquilibrium.lean": {
+      "bytes": 3512,
+      "sha256": "8031548cef2c8b192f6756464e370c2d5bd367f9a4a967ce94262221b7ade863"
+    },
+    "zeta5/Zeta5/Analysis/ExternalField.lean": {
+      "bytes": 4999,
+      "sha256": "ebc353e38fde28e05449904a7d9c0677c176187d57a4562fdf7a8253986e0ee2"
+    },
+    "zeta5/Zeta5/Analysis/GramBound.lean": {
+      "bytes": 6776,
+      "sha256": "6af42366bd602d77b9035725edbea027921f5d2832e9d9146565b1ceca73fa32"
+    },
+    "zeta5/Zeta5/Analysis/GridIntegral.lean": {
+      "bytes": 7433,
+      "sha256": "a8cfcc4f16f49a0d5c3259361d5d08a80d7cc8a8cc79b6dccfa5f66c90c54887"
+    },
+    "zeta5/Zeta5/Analysis/LogQuadrature.lean": {
+      "bytes": 6574,
+      "sha256": "1b8e05169f021c5d5f1672f70da0f44d8267c01f7bd8739046392a34c6302166"
+    },
+    "zeta5/Zeta5/Analysis/LogTruncation.lean": {
+      "bytes": 5071,
+      "sha256": "4f102e8eaf8de161322d3f5118629a7846920a88f6411403594afa4ad36d3b9b"
+    },
+    "zeta5/Zeta5/Analysis/MixtureEquilibrium.lean": {
+      "bytes": 5261,
+      "sha256": "409069f47c536d28d82cb4d650d0475b706b672cf09e995760481ad2d881638b"
+    },
+    "zeta5/Zeta5/Analysis/NormRowRate.lean": {
+      "bytes": 3124,
+      "sha256": "a573220eb1aeb1a658cf58f0d4218b404c8d4401dccdeeb05fff925548c6d55f"
+    },
+    "zeta5/Zeta5/Analysis/PhysicalMeasure.lean": {
+      "bytes": 8884,
+      "sha256": "d9d6dbe5f7ceebb755a2d1390166bf4466cbbe326eb69d4b3db5c3ebc087fd38"
+    },
+    "zeta5/Zeta5/Analysis/PhysicalMeasureBose.lean": {
+      "bytes": 3372,
+      "sha256": "aa6e7b978924533ab92a7e75995053c8c3134f0f3f68b6e81202e184258aaefd"
+    },
+    "zeta5/Zeta5/Analysis/PhysicalMeasureCauchy.lean": {
+      "bytes": 5828,
+      "sha256": "543b9ccf8fefb43cf305050606b8fce0645ff4c312c0babd0a3963a2d60c5089"
+    },
+    "zeta5/Zeta5/Analysis/PhysicalMeasureCauchyFourth.lean": {
+      "bytes": 7490,
+      "sha256": "8bf6bde3c695dc69f6f0f1a16e795f4b1d32518e36f9c017f69c7f0109bae091"
+    },
+    "zeta5/Zeta5/Analysis/PhysicalMeasureCauchyFourthIntegrals.lean": {
+      "bytes": 10234,
+      "sha256": "9b75d284164f23fd2d0e49a5fe5782b921f1f96815b1faff1c59846aa4346c85"
+    },
+    "zeta5/Zeta5/Analysis/PhysicalMeasureCoth.lean": {
+      "bytes": 4075,
+      "sha256": "c20b9915c866d11f7eca51b67f3237fe21eac5e3ff8282e397291c893101aedc"
+    },
+    "zeta5/Zeta5/Analysis/PhysicalMeasureGram.lean": {
+      "bytes": 9308,
+      "sha256": "a818c8ea0276c2a5e5d64ea4c2143e8dc00d7dac25a906b4ade2c658b98f7102"
+    },
+    "zeta5/Zeta5/Analysis/PhysicalMeasureLaplace.lean": {
+      "bytes": 9133,
+      "sha256": "d7af07603dde0c86ad3721649637838c7a3ecda0fb5f3bdb00057c644e2557b8"
+    },
+    "zeta5/Zeta5/Analysis/PhysicalMeasureMoments.lean": {
+      "bytes": 2683,
+      "sha256": "5fff4cc7f67148b7647894a92ce2710fd8aeadec7bf24b6aaa35bcbc9b31216a"
+    },
+    "zeta5/Zeta5/Analysis/PhysicalMeasurePencil.lean": {
+      "bytes": 6736,
+      "sha256": "d96cc8dbb93ee32c25db70e46ab63aeee6e90df2f629c8aad9be59ae888edb9f"
+    },
+    "zeta5/Zeta5/Analysis/PhysicalMeasurePushforward.lean": {
+      "bytes": 6305,
+      "sha256": "3f418bf96b71dc210c43fd6b2eaa37181f63a6fc6afda8d94626c5d6a365a009"
+    },
+    "zeta5/Zeta5/Analysis/PhysicalMeasureStieltjes.lean": {
+      "bytes": 3614,
+      "sha256": "d77898654ec718a29a77f73b82af42cec2a6a25ec8cd8cf7bab0766ab3c7fffc"
+    },
+    "zeta5/Zeta5/Analysis/PhysicalMeasureStieltjesCoth.lean": {
+      "bytes": 6878,
+      "sha256": "66e532fbd7875233dd074abd9fd71fb8728972d46155c2f06ce107432cda5ec5"
+    },
+    "zeta5/Zeta5/Analysis/PhysicalMeasureStieltjesLaplace.lean": {
+      "bytes": 5804,
+      "sha256": "884dd71e4d89b81c15ae68af2c008ce31b9b5dfa3c51e090c7767fdbea93c051"
+    },
+    "zeta5/Zeta5/Analysis/PhysicalMeasureZetaTail.lean": {
+      "bytes": 1936,
+      "sha256": "cf4f83ac848ff73478794f8b3f98512e134b7f98b4f64c5bc63615d1ffdd4d4e"
+    },
+    "zeta5/Zeta5/Analysis/PhysicalNorm.lean": {
+      "bytes": 4995,
+      "sha256": "5054cdb4d1daa7e3b2411f4e28bfed23e963337af4a45971f49b1cb7ffc7f439"
+    },
+    "zeta5/Zeta5/Analysis/PhysicalNormTrial.lean": {
+      "bytes": 7653,
+      "sha256": "da5b037c68fc50fe6b4982e36d8794422958e16097ab94a5041f0c9665ae5bdc"
+    },
+    "zeta5/Zeta5/Analysis/PhysicalWeight.lean": {
+      "bytes": 5998,
+      "sha256": "5c198450947cd0f1ec42132a4e4b6ab8410263516cb2fa0e8559a53df1bf7c4f"
+    },
+    "zeta5/Zeta5/Analysis/PolynomialGram.lean": {
+      "bytes": 5290,
+      "sha256": "54d080950442e7baac05935af2b93d9fb53dc41489cd433887bb125387608031"
+    },
+    "zeta5/Zeta5/Analysis/PotentialTail.lean": {
+      "bytes": 8899,
+      "sha256": "0f4fe3fa98b9f4af8080a6878e38c4b7a54a43f10ab9aef1673af685bef612a5"
+    },
+    "zeta5/Zeta5/Analysis/Profile.lean": {
+      "bytes": 6644,
+      "sha256": "2a51557f5273eb7f12bffdbcc13a53bd21f02281d4dcee3fbfa0326430aebed4"
+    },
+    "zeta5/Zeta5/Analysis/ProfileContinuity.lean": {
+      "bytes": 4627,
+      "sha256": "7429dfea6b8b7e4c53d961ffc5abe67e84c88ef6ab023bc09758526cd99bc55e"
+    },
+    "zeta5/Zeta5/Analysis/ProfileGrid.lean": {
+      "bytes": 2318,
+      "sha256": "4456cc7a2c17c1a3a0cce91aa659b48a5749d88cbf14ba7d20bc3dc412d33382"
+    },
+    "zeta5/Zeta5/Analysis/ProfileInverse.lean": {
+      "bytes": 3681,
+      "sha256": "3a0067f7c2eddff20bc940b54a2b773b920dbe9ef887468686c3bbf8be813c56"
+    },
+    "zeta5/Zeta5/Analysis/ProfileShape.lean": {
+      "bytes": 10759,
+      "sha256": "452120a9cd3b23f6e2c103ca3f88fb1fcc8e0a9a722bf51594ab46cde3cc50b0"
+    },
+    "zeta5/Zeta5/Analysis/QuantilePartition.lean": {
+      "bytes": 4820,
+      "sha256": "c4f317d4e34fcd7076b42a259504ec7cce0d4979680a79114761bd87754dcf42"
+    },
+    "zeta5/Zeta5/Analysis/QuantileQuadrature.lean": {
+      "bytes": 9805,
+      "sha256": "d9c594cab0328834063fbf4f358ada0320684f15dfeb7b3bdf091e219dc6d407"
+    },
+    "zeta5/Zeta5/Analysis/RiemannWeight.lean": {
+      "bytes": 6989,
+      "sha256": "a0c702c943fb60bd9b5567b5e6b3a6ebed86302588ba59ec9070521924b4ff1b"
+    },
+    "zeta5/Zeta5/Analysis/SmallPrimeError.lean": {
+      "bytes": 4171,
+      "sha256": "7b5c8caf61a9c696cd84b6868ea9bbcfb8bcc25154e521d1762378e57d04c21d"
+    },
+    "zeta5/Zeta5/Analysis/Trapezoids.lean": {
+      "bytes": 5612,
+      "sha256": "4f1751ccdacb2587d61ba1baade7567823df4157f9347606a026c8f57bec5171"
+    },
+    "zeta5/Zeta5/Analysis/TrialPolynomial.lean": {
+      "bytes": 7360,
+      "sha256": "7c554e32a53d65d9a5d2057b21ece65aed3b2d2e7a4fe71b5f921dd9ec43efac"
+    },
+    "zeta5/Zeta5/Analysis/UniformTrial.lean": {
+      "bytes": 3477,
+      "sha256": "d83bfe9f287a8683cab4cd34cacdaf70c98ea5b9c59e2a4609828be9244960c5"
+    },
+    "zeta5/Zeta5/Analysis/WindowGramBound.lean": {
+      "bytes": 6441,
+      "sha256": "70f2e8dc0fa9bb12e6e0769f61bfe7640dfae045968218afb71022205c1e7ea9"
+    },
+    "zeta5/Zeta5/Arithmetic/AtomicClusterBounds.lean": {
+      "bytes": 4427,
+      "sha256": "0680ab45ff38c9b2ef28d2cdb2555cc5d844ec5d76f8d3e6328fb904b44e8799"
+    },
+    "zeta5/Zeta5/Arithmetic/AtomicMinors.lean": {
+      "bytes": 9045,
+      "sha256": "f0b7e1493e10b6145279fb72fc7003196d8095873e292e5bff2a7367371f6bc3"
+    },
+    "zeta5/Zeta5/Arithmetic/BernoulliDistribution.lean": {
+      "bytes": 2961,
+      "sha256": "a2065349be101e95be9ab07975f3a92f5687b82c8d404cf7141e729e1b9345c6"
+    },
+    "zeta5/Zeta5/Arithmetic/BernoulliFunctional.lean": {
+      "bytes": 7730,
+      "sha256": "c97dc0ecf24ffae146885a324185e215cf3bb47b567e44207deee5da720b5216"
+    },
+    "zeta5/Zeta5/Arithmetic/BernoulliLoss.lean": {
+      "bytes": 3445,
+      "sha256": "ec0ef618fb3aacbf96a55ae152bcd7075f91aa1fe7a14b2400e73058b94636e1"
+    },
+    "zeta5/Zeta5/Arithmetic/BernoulliMoments.lean": {
+      "bytes": 4036,
+      "sha256": "57a514143a5ac93cd8b557e370a0e2b70fc98dbf92938bdf3d1c125c45a9513c"
+    },
+    "zeta5/Zeta5/Arithmetic/CentralIntegerValued.lean": {
+      "bytes": 13129,
+      "sha256": "226d328bd25d65562af84d73e335354953ba8741e335d6580360d88a67651ad0"
+    },
+    "zeta5/Zeta5/Arithmetic/ClusterCosts.lean": {
+      "bytes": 4852,
+      "sha256": "60c87a84ce9419e816a13127bb25e00de6b8889f24d65f090e2f87f4e08c5146"
+    },
+    "zeta5/Zeta5/Arithmetic/EvaluationMinors.lean": {
+      "bytes": 8497,
+      "sha256": "261caee189499534156a6b802126f69125019806ecf5d1b72597b355bf15a14d"
+    },
+    "zeta5/Zeta5/Arithmetic/FactorialFloorSum.lean": {
+      "bytes": 3558,
+      "sha256": "e075dd0f4cd6d02b9f729c3f9f8432361c0c3b5e2815cdf83da3d465df7aa68b"
+    },
+    "zeta5/Zeta5/Arithmetic/FactorialPrefactor.lean": {
+      "bytes": 3254,
+      "sha256": "bc9eda1ac02ac04187f07a58430c41674634e1f76a8d301f73db6fee0c08b544"
+    },
+    "zeta5/Zeta5/Arithmetic/FinsetAtomicMinors.lean": {
+      "bytes": 2058,
+      "sha256": "8c9593ffd9130a605d5de92c68ec046254d9f786dca7604b29412d1b31198f00"
+    },
+    "zeta5/Zeta5/Arithmetic/IntegralMatrices.lean": {
+      "bytes": 2450,
+      "sha256": "d1e4a49bca2f745055207d32c75db7073c687b2dd9ffd5e937c4909cb659fbb1"
+    },
+    "zeta5/Zeta5/Arithmetic/LargePrimes.lean": {
+      "bytes": 5039,
+      "sha256": "bc28b084b728f48def533cb4a000d789ec7909f021ebed227b11d139b4282422"
+    },
+    "zeta5/Zeta5/Arithmetic/LocalDenominator.lean": {
+      "bytes": 13518,
+      "sha256": "d90dcc3a59368f31a40d0596c15295da55115f4e95d86faebb3bf26d65a7a2cc"
+    },
+    "zeta5/Zeta5/Arithmetic/LocalDeterminant.lean": {
+      "bytes": 4094,
+      "sha256": "1710103339ebda28281b7aaa6cb7b2f2266ba880196d535e6f66a47aec4ab667"
+    },
+    "zeta5/Zeta5/Arithmetic/LocalDivision.lean": {
+      "bytes": 4714,
+      "sha256": "dd47faa303fc92f51421c1fca2119eb7b2644968d8041b163a0a3cc1db9b033e"
+    },
+    "zeta5/Zeta5/Arithmetic/LocalFunctional.lean": {
+      "bytes": 17786,
+      "sha256": "de085383d5dbb4942e81617479c08bffbcfe5ec47968c6d7820caa5f5b21076e"
+    },
+    "zeta5/Zeta5/Arithmetic/LocalInterpolation.lean": {
+      "bytes": 6903,
+      "sha256": "b5352cc4556f1e2e54aa4e5aa4c6f9d75a3f7506f031c8f2efebe6b55004c12d"
+    },
+    "zeta5/Zeta5/Arithmetic/LocalNewton.lean": {
+      "bytes": 6706,
+      "sha256": "620d51750acfe499adca55eff4bec35e965b75bf6fe10a735c405267fadb099a"
+    },
+    "zeta5/Zeta5/Arithmetic/LocalQuotient.lean": {
+      "bytes": 11427,
+      "sha256": "0240ac350a557f180ef235ea87b73a5611da4ea85ca62a0c641db4ca947f4328"
+    },
+    "zeta5/Zeta5/Arithmetic/LocalRestriction.lean": {
+      "bytes": 8725,
+      "sha256": "038bb7d68262e0b003ca8f5a0daa52f5ba5f20db84954a6d0ee2212ea6d02859"
+    },
+    "zeta5/Zeta5/Arithmetic/LowPairs.lean": {
+      "bytes": 7979,
+      "sha256": "6e77349c2e7d19acad342298668d13cf1221d05a13e733a248109e75b199cd3f"
+    },
+    "zeta5/Zeta5/Arithmetic/Moments.lean": {
+      "bytes": 6391,
+      "sha256": "c488dd2e3ca8be180faf2683e62a02424b88e0f854a206784c90a492ae2cc5cd"
+    },
+    "zeta5/Zeta5/Arithmetic/Newton.lean": {
+      "bytes": 5080,
+      "sha256": "ec0b6f1473477fc0da4b916b51437c62471770365fca044dcf7bad036d04c219"
+    },
+    "zeta5/Zeta5/Arithmetic/NewtonDerivative.lean": {
+      "bytes": 7017,
+      "sha256": "35c49c25963291e823d2578570cf7d5610548d43c54de000b083cbd8157714f9"
+    },
+    "zeta5/Zeta5/Arithmetic/NormalizerBounds.lean": {
+      "bytes": 4947,
+      "sha256": "4d6868a34ab06aa6dac3929492e7444cb0427784e3c55bca498a62813b5d2085"
+    },
+    "zeta5/Zeta5/Arithmetic/NormalizerLocalBounds.lean": {
+      "bytes": 8033,
+      "sha256": "f7c01740cc91cb2d45bb34e61a1af59956cfd65935172dd4d616845f89174e43"
+    },
+    "zeta5/Zeta5/Arithmetic/NormalizerPrimeTail.lean": {
+      "bytes": 5537,
+      "sha256": "2c7856bec893136505439ea3177ea376c8840f4de2512d094e1537459a6fc6e3"
+    },
+    "zeta5/Zeta5/Arithmetic/PadicCongruences.lean": {
+      "bytes": 2384,
+      "sha256": "8c3cbe7c8c3a5270e6463b4f1f184ed0096555836ac414c17c462789d1a40102"
+    },
+    "zeta5/Zeta5/Arithmetic/PadicResidue.lean": {
+      "bytes": 2745,
+      "sha256": "ad6fb704286122ca313e204f701c1999b0d24364b55b1fb081334d9111b3e0da"
+    },
+    "zeta5/Zeta5/Arithmetic/PrimeAssembly.lean": {
+      "bytes": 7254,
+      "sha256": "176366503b21232b4554a5c1ca3f0e9061035680b3c1f58903e8f063e939c7da"
+    },
+    "zeta5/Zeta5/Arithmetic/PrimeRowBound.lean": {
+      "bytes": 5303,
+      "sha256": "220ec254936a7da3a9f9df768ae5f9189a1273b9020f3742d23adefab5b76fba"
+    },
+    "zeta5/Zeta5/Arithmetic/QuotientMinors.lean": {
+      "bytes": 3273,
+      "sha256": "abef7071a277318ca2fc351ee7d1a31c42fcd060e52fb06654d82c12d2ad7d91"
+    },
+    "zeta5/Zeta5/Arithmetic/QuotientSupport.lean": {
+      "bytes": 6901,
+      "sha256": "8085a020b697df188b243d1fea28e293841ea2e88e8101b277c2ccfd2c874bab"
+    },
+    "zeta5/Zeta5/Arithmetic/RankProfileComparison.lean": {
+      "bytes": 7529,
+      "sha256": "ebb4a48dc423acb15941f0ce35feca3c0d858ab3ec51050c69fb3d0c7d5b7f6a"
+    },
+    "zeta5/Zeta5/Arithmetic/ReflectedBounds.lean": {
+      "bytes": 3647,
+      "sha256": "5f3c2c4e54e2176e9f32fd345f42b20a6b39b2b6c069dd7e08be081888a74e17"
+    },
+    "zeta5/Zeta5/Arithmetic/ReflectedClasses.lean": {
+      "bytes": 7298,
+      "sha256": "4abf7d6fc3c2797e86a538fe1670ee7ab079c18927ce9861b88a82dc55f7c796"
+    },
+    "zeta5/Zeta5/Arithmetic/ReflectedCounts.lean": {
+      "bytes": 4935,
+      "sha256": "5058d41aa6dcbdd0f863e0a8e1bdef28129ba2841828a1a8350c98e9468dde68"
+    },
+    "zeta5/Zeta5/Arithmetic/ReflectedMinors.lean": {
+      "bytes": 4200,
+      "sha256": "b9945a840fb2f9c8fecda0de70a3ca602af9c2559c263c79213bf786e7fa0ea5"
+    },
+    "zeta5/Zeta5/Arithmetic/ReflectedPartition.lean": {
+      "bytes": 2717,
+      "sha256": "f8c8ef139bd5434539f992b468060a9bb0913890ff2277275cdab08dcbbd6c5b"
+    },
+    "zeta5/Zeta5/Arithmetic/ReflectedWeights.lean": {
+      "bytes": 4165,
+      "sha256": "520092bcfe267f6a73c5da2cc05b4fed1e0d08c93865bd00a898956992d39d39"
+    },
+    "zeta5/Zeta5/Arithmetic/ResidueValuations.lean": {
+      "bytes": 4277,
+      "sha256": "56c2076055f46c31e885337e470c134907b36b059f592ff7b96b7640d25ac522"
+    },
+    "zeta5/Zeta5/Arithmetic/RestrictionDeterminant.lean": {
+      "bytes": 5889,
+      "sha256": "ba2f4a924b29157072cb99cda6b8978e95cf7b03d93be53bc8353cf556e10efe"
+    },
+    "zeta5/Zeta5/Arithmetic/RestrictionPencil.lean": {
+      "bytes": 9266,
+      "sha256": "c7508240f839a2f38dd4a0f6d7bafe8b4375729167d764cca02985ca55df0ba5"
+    },
+    "zeta5/Zeta5/Arithmetic/SharedAllocation.lean": {
+      "bytes": 2940,
+      "sha256": "72018640c7bc5d1e4e2993a4bbf8d4a393f831167ed5b23728348246290ed05a"
+    },
+    "zeta5/Zeta5/Arithmetic/SmallPrimeEntries.lean": {
+      "bytes": 4756,
+      "sha256": "6149d59ef9f894e690328bc7d9e29ef252343ee73f1ca7d054efb867f7bd483a"
+    },
+    "zeta5/Zeta5/Arithmetic/SmallPrimeProper.lean": {
+      "bytes": 9432,
+      "sha256": "f1597259f7fef3bafeccceeb87df41d7e167b4831db3969481812b01e4f0fc86"
+    },
+    "zeta5/Zeta5/Arithmetic/SmallPrimeQuotient.lean": {
+      "bytes": 6192,
+      "sha256": "a21aadddc2f370079c6c5ad721a705c3ace7ba1a655d314fc9564bf2d894a08a"
+    },
+    "zeta5/Zeta5/Arithmetic/SmallPrimeScalars.lean": {
+      "bytes": 4954,
+      "sha256": "accfc816339d7c4bbc74e9e782ee4d077e15b9c70b64d5667d9d89f5fc1a22ff"
+    },
+    "zeta5/Zeta5/Arithmetic/SmallPrimeSum.lean": {
+      "bytes": 6317,
+      "sha256": "c4eb375dff1bd12c22cbe849b32edda6c97bc323d298061ae16584ffc5c121c8"
+    },
+    "zeta5/Zeta5/Arithmetic/StieltjesReflection.lean": {
+      "bytes": 6550,
+      "sha256": "7c23988e4453a2f778d29d74ec277e461cfe24dd517eb7e8414e7e4b296fe57a"
+    },
+    "zeta5/Zeta5/Arithmetic/StieltjesValuations.lean": {
+      "bytes": 6141,
+      "sha256": "ba467bfedc6f61f61e471b33e1cecbe83bdc4eba049e8fabcaa8062fc5515cb1"
+    },
+    "zeta5/Zeta5/Arithmetic/UpperBandAssembly.lean": {
+      "bytes": 5411,
+      "sha256": "d3559fdfa25069554b670114540ce0a50120372a7ea3e1dfe21289673fb4c524"
+    },
+    "zeta5/Zeta5/Arithmetic/UpperProfileComparison.lean": {
+      "bytes": 12421,
+      "sha256": "310869f61a2ddf6a5fb406923a94a8725d9ce5535ef4eb4b3b80e639985c2b11"
+    },
+    "zeta5/Zeta5/Arithmetic/ZeroClass.lean": {
+      "bytes": 3037,
+      "sha256": "8afd50919ef125d59bc2b3f94da2515d7be669b36def5ad999c2366a3d05cf9e"
+    },
+    "zeta5/Zeta5/Certificate/AllPrimePieces.lean": {
+      "bytes": 5597,
+      "sha256": "118aae7d07323198e4a405930413257b2758862f397a31bc1267b2827d41f02e"
+    },
+    "zeta5/Zeta5/Certificate/AnalyticGrid.lean": {
+      "bytes": 714278,
+      "sha256": "d77f25d91456e6c7faf27a7988d5e51ac7f385192d9f784e9701867ac3bfbbc5"
+    },
+    "zeta5/Zeta5/Certificate/ArithmeticCells.lean": {
+      "bytes": 174461,
+      "sha256": "4f9d367ceb1d7f22132d1a510323db3163453ddbeb409b5df2f1337ec25c5211"
+    },
+    "zeta5/Zeta5/Certificate/ArithmeticIntegral.lean": {
+      "bytes": 2861,
+      "sha256": "260300bfed3cca4e56929a67c9fef0a123a2aaeb187d7c745f7495c5a931e04f"
+    },
+    "zeta5/Zeta5/Certificate/ArithmeticPartition.lean": {
+      "bytes": 13181,
+      "sha256": "5e898b28c9597f42228008f88bb1ae6ed7739ed36e0f61413862ca044baa656b"
+    },
+    "zeta5/Zeta5/Certificate/ArithmeticProfile.lean": {
+      "bytes": 6135,
+      "sha256": "6a9d9fe85086a7c8fa9c37446c1d53e40c5be0234e0af0f0021e65e4cebc93a8"
+    },
+    "zeta5/Zeta5/Certificate/Constants.lean": {
+      "bytes": 1813,
+      "sha256": "7dfb529c0af030cc876264b2aa578ac89561c6ddb19e0cdcced92081c3ade1af"
+    },
+    "zeta5/Zeta5/Certificate/DirectedBounds.lean": {
+      "bytes": 5673,
+      "sha256": "72eeed619d299fb2c51015ca997cf31eec021e3547168fc126002b4fb99f09eb"
+    },
+    "zeta5/Zeta5/Certificate/ExtendedArithmetic.lean": {
+      "bytes": 3994,
+      "sha256": "3a49f4b0e664347842218627aa467a79d767e4ca477340735f254c1a0967c33e"
+    },
+    "zeta5/Zeta5/Certificate/ExtendedArithmetic/AllCells.lean": {
+      "bytes": 7573,
+      "sha256": "fbb667148f7439bc2e1cc3548e49670e8aecc45595a9ea9aac988c8cbfc7bfaa"
+    },
+    "zeta5/Zeta5/Certificate/ExtendedArithmetic/Block00.lean": {
+      "bytes": 47352,
+      "sha256": "1c19db7394f66c279875cbcb3d848258dcedeed95747b4eec6862be06afb8fb6"
+    },
+    "zeta5/Zeta5/Certificate/ExtendedArithmetic/Block01.lean": {
+      "bytes": 47335,
+      "sha256": "fae5ba46db1bb248320f96ffab958f2aaeba24ba43d8e881243613d8e99a651a"
+    },
+    "zeta5/Zeta5/Certificate/ExtendedArithmetic/Block02.lean": {
+      "bytes": 47363,
+      "sha256": "bd0afcbb658405ef8cda3146bddd9e19563fab72d4d7d63a02b1f007852ae0f1"
+    },
+    "zeta5/Zeta5/Certificate/ExtendedArithmetic/Block03.lean": {
+      "bytes": 47335,
+      "sha256": "93ce9d8cafbbf0dd075072ff1ef73a275755edb8e5a051ca37b56a03937d0d0f"
+    },
+    "zeta5/Zeta5/Certificate/ExtendedArithmetic/Block04.lean": {
+      "bytes": 47364,
+      "sha256": "386207dc51aa4dc63ed7fcfc8996aef4b88b08bcf6550ff91451b27b88aa1d85"
+    },
+    "zeta5/Zeta5/Certificate/ExtendedArithmetic/Block05.lean": {
+      "bytes": 47253,
+      "sha256": "5eaedc0fcfd7bfcfa7604fce312ca729345d87e03ba4515d620ed23a97c7cc33"
+    },
+    "zeta5/Zeta5/Certificate/ExtendedArithmetic/Block06.lean": {
+      "bytes": 47200,
+      "sha256": "dd3a9ab1c154001ecdb3b7743249272f50f349db9a07d1aa97c4887976af473f"
+    },
+    "zeta5/Zeta5/Certificate/ExtendedArithmetic/Block07.lean": {
+      "bytes": 47246,
+      "sha256": "fde4856ad62f3f9ba920f73a8a20b05d928da2ba47d3a44a7c71283d0129d049"
+    },
+    "zeta5/Zeta5/Certificate/ExtendedArithmetic/Block08.lean": {
+      "bytes": 47260,
+      "sha256": "9ad49245c10e8dabb1a1b69114c29c1560e85c6982b79d4385e38cea4f644b0b"
+    },
+    "zeta5/Zeta5/Certificate/ExtendedArithmetic/Block09.lean": {
+      "bytes": 47225,
+      "sha256": "11a98bd3f2ddb3fde8c8106546319c0e4a123bac65de1b2ec1250e2cc2326262"
+    },
+    "zeta5/Zeta5/Certificate/ExtendedArithmetic/Block10.lean": {
+      "bytes": 47227,
+      "sha256": "6db60dac3842da8e583f98e283502d391ae0c7f1dff7b470175fe21db95bda47"
+    },
+    "zeta5/Zeta5/Certificate/ExtendedArithmetic/Block11.lean": {
+      "bytes": 47224,
+      "sha256": "d69580849f84c58d83d1b61cdc51e339e87dd0a23c5faad966e1cbada74187ed"
+    },
+    "zeta5/Zeta5/Certificate/ExtendedArithmetic/Block12.lean": {
+      "bytes": 47218,
+      "sha256": "602fdb9f88ad28674c04ee7f5e09949f72081d43dee72be99c8d0a2220ea88b7"
+    },
+    "zeta5/Zeta5/Certificate/ExtendedArithmetic/Block13.lean": {
+      "bytes": 47229,
+      "sha256": "cd40e5a6ac05783522c5adfc08f679eb59f318fe37c78c72c2623039670b1b10"
+    },
+    "zeta5/Zeta5/Certificate/ExtendedArithmetic/Block14.lean": {
+      "bytes": 47223,
+      "sha256": "f62e446a17b6cf71f5ebf8edd5dc9ab9184ba2cad14a75ea91f8c1992782f90e"
+    },
+    "zeta5/Zeta5/Certificate/ExtendedArithmetic/Block15.lean": {
+      "bytes": 47126,
+      "sha256": "2ed5289dc1c6956144fe9d7ac411bd691be2ba14ea8bf142fff0adc68d2667eb"
+    },
+    "zeta5/Zeta5/Certificate/ExtendedArithmetic/Block16.lean": {
+      "bytes": 47153,
+      "sha256": "f9ffd178b2e5e6caf245c2da7016a3a4609f67d71b1c14ed4c2254c82110454e"
+    },
+    "zeta5/Zeta5/Certificate/ExtendedArithmetic/Block17.lean": {
+      "bytes": 47138,
+      "sha256": "1fc8ee99e979a603dfe14c93f54b69777b63350d9effcfdaadcc25cdc58045ca"
+    },
+    "zeta5/Zeta5/Certificate/ExtendedArithmetic/Block18.lean": {
+      "bytes": 47128,
+      "sha256": "fa32fe8cd637b5697c0c8ac193aa3e69f4c702eaafa4a863238a7a824781138a"
+    },
+    "zeta5/Zeta5/Certificate/ExtendedArithmetic/Block19.lean": {
+      "bytes": 47014,
+      "sha256": "784425c00750e5b3497baf50bf02d5ef7c600a99a0602df1e5ac225be7fa5121"
+    },
+    "zeta5/Zeta5/Certificate/ExtendedArithmetic/Block20.lean": {
+      "bytes": 46947,
+      "sha256": "2a6d4c0f5f62292e44aad961a7777fe4814e12c707e739a939a083df5c12ab7a"
+    },
+    "zeta5/Zeta5/Certificate/ExtendedArithmetic/Block21.lean": {
+      "bytes": 46942,
+      "sha256": "fe69a9af4ef6049f7b8181823fe5feb6438e13143986f5b6493f964ee54a1b55"
+    },
+    "zeta5/Zeta5/Certificate/ExtendedArithmetic/Block22.lean": {
+      "bytes": 46781,
+      "sha256": "a8ad615ab3cfe6ce049f505940a81c94c91c972ae826aeda63463aea0343711c"
+    },
+    "zeta5/Zeta5/Certificate/ExtendedArithmetic/Block23.lean": {
+      "bytes": 42263,
+      "sha256": "d270f9a6b82074a669e7e12c0c16c74c821b3314fdf9818119d6dcc3ddd7ba79"
+    },
+    "zeta5/Zeta5/Certificate/ExtendedArithmetic/Chain.lean": {
+      "bytes": 6604,
+      "sha256": "9dd20338af1700fad7e56d7429c110ac6134b0ca6a5fc7c639cd341a3967b406"
+    },
+    "zeta5/Zeta5/Certificate/ExtendedArithmetic/Core.lean": {
+      "bytes": 2611,
+      "sha256": "96ba4e283d9bf194c6f9ca12c7c1a1ce4f66e7551ee0cec77f7c5a21369d29a5"
+    },
+    "zeta5/Zeta5/Certificate/ExtendedArithmetic/PrimeIntervals.lean": {
+      "bytes": 2330,
+      "sha256": "d213a58ce3c567828ae1c4cfb801f1e3fc5d910cf7e7828e7552c2bd3aaedfd4"
+    },
+    "zeta5/Zeta5/Certificate/GridBenchmark.lean": {
+      "bytes": 11255,
+      "sha256": "c2169091739eedcb91ba2c780fc2f2e311186ee6be0d6bd9a7544473d22a8afd"
+    },
+    "zeta5/Zeta5/Certificate/GridDefinitions.lean": {
+      "bytes": 3607,
+      "sha256": "1cc62b148950176272fefc61738c85081928ba66113cb0b028629e65762a6678"
+    },
+    "zeta5/Zeta5/Certificate/GridSaving.lean": {
+      "bytes": 5249,
+      "sha256": "d77944dd40a1677f0ab97d0b891f86b2e64e42a97e0b85fa4c3308b23d0aad69"
+    },
+    "zeta5/Zeta5/Certificate/GridSoundness.lean": {
+      "bytes": 8772,
+      "sha256": "822207ea5af67d24eda84fc0ce8cc19db3d4dc65dd9dae7df8d1cb15b1edecab"
+    },
+    "zeta5/Zeta5/Certificate/LogTwo.lean": {
+      "bytes": 652,
+      "sha256": "216f55a5aa387aaa5ec0f83e138af6441fcd24bff3da7fad7a1764c641b76dbd"
+    },
+    "zeta5/Zeta5/Certificate/PrimePiecesTelescope.lean": {
+      "bytes": 3484,
+      "sha256": "39a180e7d71d219b3af0d9502fc1ac6b2a6e0184e7e1a4a7e5144f78fdd375aa"
+    },
+    "zeta5/Zeta5/Certificate/RealComparison.lean": {
+      "bytes": 1336,
+      "sha256": "e9b13ecb5fb628865bfc5b84af8d0a458923799114498aa3bfe9fe490fe4cd37"
+    },
+    "zeta5/Zeta5/Certificate/UpperArithmetic.lean": {
+      "bytes": 1002,
+      "sha256": "0222164c8ad18917fd8c6a6161518f564baf7bce19e75dc83c67ed8ff9824188"
+    },
+    "zeta5/Zeta5/Construction/BasisChange.lean": {
+      "bytes": 7850,
+      "sha256": "b5389dd82f2c15d730cbd49c36c17d15d5dde93ada96b908c0b87cb7d6981076"
+    },
+    "zeta5/Zeta5/Construction/Determinant.lean": {
+      "bytes": 4154,
+      "sha256": "62dd4bed5c2bd3d531bbb9f1f1dda395009edd976c000a571d3762f5cb3efde7"
+    },
+    "zeta5/Zeta5/Construction/Functional.lean": {
+      "bytes": 3002,
+      "sha256": "3f1a47b3db39a968275f8f290252a0b476cfadf6fb06239aa0e0efc4f0b6c514"
+    },
+    "zeta5/Zeta5/Construction/PartialFractions.lean": {
+      "bytes": 5201,
+      "sha256": "fc9e03f1af7c646c386b89ef6ce1eb318509ed6da8d4ad16da9f94c7a607c90e"
+    },
+    "zeta5/Zeta5/Construction/Polynomials.lean": {
+      "bytes": 3775,
+      "sha256": "0b0fdd006bc57651e955ed11ae5ad9819542cfee53498d5327c36b9342fd9042"
+    },
+    "zeta5/Zeta5/Construction/ResidueDecomposition.lean": {
+      "bytes": 1814,
+      "sha256": "f3528236a32d5c196bf16fabc681c162e8658e9b780134964d2e3c5113635363"
+    },
+    "zeta5/Zeta5/Construction/ResidueDerivative.lean": {
+      "bytes": 4299,
+      "sha256": "58adfcf6224445d01fbb55fb2331afc4ea07010b39cad02ca749c6ff917d3791"
+    },
+    "zeta5/Zeta5/Endpoint/AnalyticCriterion.lean": {
+      "bytes": 1650,
+      "sha256": "3698cbf3cc91057c9231ffa387b591c925350fc28c099b7696261bec05ce244c"
+    },
+    "zeta5/Zeta5/Endpoint/ConcreteCriterion.lean": {
+      "bytes": 6231,
+      "sha256": "87f401e5a1c88e57793bd2e3f41de70e940544da8eb3449c03318752b7f3e0d0"
+    },
+    "zeta5/Zeta5/Endpoint/IntegerPolynomial.lean": {
+      "bytes": 3975,
+      "sha256": "0557b1bdf91a01de6c061af82918a11047f39fe41846951b8d6e3462ad307f54"
+    },
+    "zeta5/Zeta5/Endpoint/PhysicalCriterion.lean": {
+      "bytes": 1749,
+      "sha256": "cd3f70f1cb6fad8d06886c033d16ce988c59c8cb6d7d65c4a857e5ede364cae0"
+    },
+    "zeta5/Zeta5/Endpoint/PrimitiveNormalization.lean": {
+      "bytes": 7551,
+      "sha256": "9040ebab36eb01648752a29773c040437f96971bf7f06ee99f316cea7d698ceb"
+    },
+    "zeta5/Zeta5/Endpoint/Verified.lean": {
+      "bytes": 509,
+      "sha256": "e18efd0fc78ddf37c34a056c237bfa4daf9e1bb33473d9252453fb6ad9e14a60"
+    },
+    "zeta5/Zeta5/Endpoint/ZetaBridge.lean": {
+      "bytes": 1457,
+      "sha256": "074334d23ec9dfe0b5aaf851d3e6f09c4991b634f6a18bf1d28687e17738145d"
+    },
+    "zeta5/Zeta5/Reuse/AllocationBlocks.lean": {
+      "bytes": 7471,
+      "sha256": "b2415a568c23cd90c4000c4a727726e449f41e87859c6c9bb54d697fef50cd3e"
+    },
+    "zeta5/Zeta5/Reuse/AxiomAudit.lean": {
+      "bytes": 7819,
+      "sha256": "2e64f8749f1af690c70c4a51864c624594c37019e8907c32cd304ff374864afd"
+    },
+    "zeta5/Zeta5/Reuse/FactorialRow.lean": {
+      "bytes": 1840,
+      "sha256": "5dec7b16f6f7d5c7160c9ec6c403c7c91a16493b863bb4564ca63d9f99f76eca"
+    },
+    "zeta5/Zeta5/Reuse/FinalTrustAudit.lean": {
+      "bytes": 3130,
+      "sha256": "c47839cc773b3470e7c57af013fbb09eb91ffba9e4543e29f7f3446bc79d0478"
+    },
+    "zeta5/Zeta5/Reuse/IndexBounds.lean": {
+      "bytes": 2401,
+      "sha256": "a04ee3701356d2503c30814a629be2e86bbf615e44a94263033440366249ff2e"
+    },
+    "zeta5/Zeta5/Reuse/PadicMinors.lean": {
+      "bytes": 4499,
+      "sha256": "c5d64c4c263e764fbaed49b5760350a4ddf4eb8c1af02f4fcdecc75ce64a89e0"
+    },
+    "zeta5/Zeta5/Reuse/PolynomialValuations.lean": {
+      "bytes": 5328,
+      "sha256": "4b54ac2d2c19d9c9573383414cc111c6bd094923b77beb77d61c2ecad8484350"
+    },
+    "zeta5/Zeta5/Reuse/PrimeAffine.lean": {
+      "bytes": 7898,
+      "sha256": "71a7c8a1bdb0d051fa40be3a09c888650287d1676519b26863d56a58df4e46c9"
+    },
+    "zeta5/Zeta5/Reuse/PrimeBoundaries.lean": {
+      "bytes": 5722,
+      "sha256": "c80be67c0ea3c232250b135c722e61e6f4b8af24f9db7fe7deb66f9834229b3f"
+    },
+    "zeta5/Zeta5/Reuse/PrimeIntervals.lean": {
+      "bytes": 2094,
+      "sha256": "8028d6062abfadd4beb56caa97a45aed1604e766490a82e4bbabefc7aa7a663a"
+    },
+    "zeta5/Zeta5/Reuse/PrimeNumberTheorem.lean": {
+      "bytes": 1931,
+      "sha256": "dccaf1790507ff1f3370ab0144394e50730df8b5e77c836c4e24ed15cef206de"
+    },
+    "zeta5/Zeta5/Reuse/PrimePiecewise.lean": {
+      "bytes": 5452,
+      "sha256": "926658be895ab6aa03ed8a3bbe8c16f6efee977d52856a0d4415fe57314b51bc"
+    },
+    "zeta5/Zeta5/Reuse/PrimeProfiles.lean": {
+      "bytes": 3848,
+      "sha256": "1a49459f2225a6ba4c3c7e776ee6bfb11aa162ce2b651d19bafa5be180a91475"
+    },
+    "zeta5/Zeta5/Reuse/PrimeTailAsymptotic.lean": {
+      "bytes": 1411,
+      "sha256": "f55623d7309299005134265bf45df2c288066f427bf7f0a598efaaba42c3922c"
+    },
+    "zeta5/Zeta5/Reuse/ProductFormula.lean": {
+      "bytes": 2672,
+      "sha256": "070df58c9fbd723785ee2dae73bff4fcbfeae2ecdb94514da31ac27ebb22198c"
+    },
+    "zeta5/Zeta5/Reuse/Stirling.lean": {
+      "bytes": 2568,
+      "sha256": "d85a20bb489dd36055ea6c925a05e6e1468fb04ae41917971c9c82693c451d97"
+    },
+    "zeta5/Zeta5/Reuse/ThetaAsymptotic.lean": {
+      "bytes": 2739,
+      "sha256": "3cc608ac35a812d360b1352be3d7945bc1523167031af3e82bd093a92d2378c4"
+    },
+    "zeta5/Zeta5/Reuse/Transcendental.lean": {
+      "bytes": 7279,
+      "sha256": "204dceb42277eb20a10291cba0b37cf8f87a73196a2d881f2fd781dcca50d8f2"
+    },
+    "zeta5/evidence/ARITHMETIC_SEMANTIC_AUDIT.txt": {
+      "bytes": 7776,
+      "sha256": "540803635c11c41e8b6115809e060ec7f99fceb75696df640cc2835bf445cc90"
+    },
+    "zeta5/evidence/CheckpointAudit.lean": {
+      "bytes": 3127,
+      "sha256": "88c8f908160ed7729567d57f4d09c855fe0f2677bba31e54003297dbdddeb234"
+    },
+    "zeta5/evidence/FinalAudit.lean": {
+      "bytes": 848,
+      "sha256": "5e6faaaadd76b48d3cd9b37823844d975fc113c9f71d1f7bce38cbe37d0d4446"
+    },
+    "zeta5/evidence/NormalizerPrimeTailAxioms.lean": {
+      "bytes": 262,
+      "sha256": "d53f81f6602ba73afa59f0f37cac12b65d8d690aff1d437ef25ccb18ab811e80"
+    },
+    "zeta5/evidence/analytic_grid_compile.log": {
+      "bytes": 1014,
+      "sha256": "597dd63a6fdf473b5af3264aa06de0049484092716a3840c445f8b6bdbb8741c"
+    },
+    "zeta5/evidence/analytic_grid_data.json": {
+      "bytes": 468,
+      "sha256": "a797660da033ece623479c71c8ab81259693b84ea1c2c2fdab04e600ae89c538"
+    },
+    "zeta5/evidence/arithmetic_cells.json": {
+      "bytes": 33036,
+      "sha256": "ba5317c77b09e8b34efec4607183c61e6febfb1e96efb7a93934cdeca87a3b39"
+    },
+    "zeta5/evidence/arithmetic_cells_compile.log": {
+      "bytes": 12180,
+      "sha256": "b397e1c82230843b808235e6a28035ca0ddc77e4b88e3859f941918a1d0879e3"
+    },
+    "zeta5/evidence/certificate_run.txt": {
+      "bytes": 524,
+      "sha256": "2d99c176b8d36628f95339c98ee0e89e10edd63e7b62b4762d2444a9a583ba7c"
+    },
+    "zeta5/evidence/environment.json": {
+      "bytes": 4046,
+      "sha256": "bd4b10c59d11456ddb8055b86e071ade01b8eff9c0a6fb01e3684da7306fc7b1"
+    },
+    "zeta5/evidence/extended_arithmetic_certificate.json": {
+      "bytes": 298,
+      "sha256": "ef94e0929f6da8140b85eee08970272fc6808343c0e2b3cb7b5b1b3cd7a658c8"
+    },
+    "zeta5/evidence/extended_certificate_assembly.log": {
+      "bytes": 708,
+      "sha256": "be2ab464b4d74720c80a558c9669cd201a841f73cc19a544fb0077b944526b9d"
+    },
+    "zeta5/evidence/final_constant_closure.json": {
+      "bytes": 3398000,
+      "sha256": "b61c6b70aa46be3b0291344c142450112fa4147b529f53b89e060eaa56d9fc12"
+    },
+    "zeta5/evidence/final_kernel_audit.log": {
+      "bytes": 1245,
+      "sha256": "8c05d01352942473f82fc6855e399d4637d4e30066d90307c8271458bc7c1e37"
+    },
+    "zeta5/evidence/final_root_build.log": {
+      "bytes": 72091,
+      "sha256": "ecad2578e174275272ea820978c501a4019aea83d5134798fde5b63c0e53f076"
+    },
+    "zeta5/evidence/final_trust_audit.log": {
+      "bytes": 437,
+      "sha256": "eaabc985f53cd8307e018e978f12b7005afa99476742890d7f2764b0cd48b09f"
+    },
+    "zeta5/evidence/independent_analytic/ArithmeticRateAxioms.lean": {
+      "bytes": 586,
+      "sha256": "25885f06a8394ce0b60c3cefc96a6225c64f151f86cb5b24ab98392b44a9d102"
+    },
+    "zeta5/evidence/independent_analytic/EndpointSemanticAudit.lean": {
+      "bytes": 2533,
+      "sha256": "0caeae018b6705117697dc9feeaecbeb1626f88064516df6d5a010a5c88efe3e"
+    },
+    "zeta5/evidence/independent_analytic/FinalEndpointSemanticAudit.lean": {
+      "bytes": 718,
+      "sha256": "5f037abac8a9f4cbc514e17ae9a358e6b11974d2f5cc68b432d3478d3afc07d2"
+    },
+    "zeta5/evidence/independent_analytic/endpoint_semantic_axioms.log": {
+      "bytes": 1516,
+      "sha256": "cc6fb7783ea1d844a9359512ac7cf0958cf3c085a12de7468aaa806a9ca9965f"
+    },
+    "zeta5/evidence/independent_analytic/final_endpoint_semantic_axioms.log": {
+      "bytes": 878,
+      "sha256": "c28311d66ed5c9a06f62f5022dd7a5f8d0ae04b575137f0bd1b4eef7d7337505"
+    },
+    "zeta5/evidence/independent_analytic/final_semantic_review.txt": {
+      "bytes": 7146,
+      "sha256": "3fe1e72c69c0c73b1a11553762054551c8db5c2e0087f3690cf98242cc78e898"
+    },
+    "zeta5/evidence/local_arithmetic_axioms.lean": {
+      "bytes": 958,
+      "sha256": "80e123b576a549aab7d4c5c16e32baf6166c001a7f527627e34f7a083a800563"
+    },
+    "zeta5/evidence/local_arithmetic_axioms.log": {
+      "bytes": 1535,
+      "sha256": "91239747370927e4e2127cbb6cb8cef0175c8371659e5040f93905aed8f325da"
+    },
+    "zeta5/evidence/normalizer_prime_tail_axioms.log": {
+      "bytes": 361,
+      "sha256": "2671dfe7edccb75732b5226a2f53ffbe724626568196cee06e71a1547dbc64c6"
+    },
+    "zeta5/evidence/restriction_axioms.lean": {
+      "bytes": 334,
+      "sha256": "9f345438fd2970c70485191f175dda53af7aecfd48d7d93e5b07189bd00a4f1e"
+    },
+    "zeta5/evidence/restriction_axioms.log": {
+      "bytes": 483,
+      "sha256": "ba3fbac6a3edd4a34ab5132db3bdd06485fc4f2237b8335d40fb5481a491d11d"
+    },
+    "zeta5/evidence/verified_endpoint_build.log": {
+      "bytes": 70562,
+      "sha256": "124e6497e1eb2cf70f661772910c7463a1abfc09af02d3d29727f2424509eb3f"
+    },
+    "zeta5/inputs/zeta5_journal.tex": {
+      "bytes": 156691,
+      "sha256": "f61395c7bbb3e9519d309535cd6d8405e08f42962c18e7b656e08c48f2171769"
+    },
+    "zeta5/lake-manifest.json": {
+      "bytes": 4882,
+      "sha256": "f9e7d96aec7f57bca708fd47707d127bff4691bd401e4000d33b5f80f1ff5e03"
+    },
+    "zeta5/lakefile.toml": {
+      "bytes": 391,
+      "sha256": "782c1f3c170d2757cb634bfca66d862eaa146a3e9a820839ee071ff6d47b17c5"
+    },
+    "zeta5/lakefile.zeta3.toml": {
+      "bytes": 420,
+      "sha256": "c0cb23f385f064f9f007a9ebd27f9256cceaed4436187c6f5df8a6328790f6af"
+    },
+    "zeta5/lean-toolchain": {
+      "bytes": 25,
+      "sha256": "3aac669c7a910ec2389f4e4f921b605adf6ebf2d1e0c9b9cd0be4d33f3f5db71"
+    },
+    "zeta5/reuse_ledger/REUSE_LEDGER.txt": {
+      "bytes": 31566,
+      "sha256": "32e3645e4f5fce4354c7348c97741913a64594364de84d5efcd0ceabcee92c09"
+    },
+    "zeta5/reuse_ledger/direct_reuse_comparison.json": {
+      "bytes": 4165,
+      "sha256": "ab02f4084ce0c7d6ed7dbb49ac4e543fb6c0d80db5c938afbb0a20adf26cb8fd"
+    },
+    "zeta5/reuse_ledger/final_constant_closure.json": {
+      "bytes": 3398000,
+      "sha256": "b61c6b70aa46be3b0291344c142450112fa4147b529f53b89e060eaa56d9fc12"
+    },
+    "zeta5/reuse_ledger/final_trust_audit.log": {
+      "bytes": 437,
+      "sha256": "eaabc985f53cd8307e018e978f12b7005afa99476742890d7f2764b0cd48b09f"
+    },
+    "zeta5/reuse_ledger/source_inventory.json": {
+      "bytes": 6869,
+      "sha256": "13c0e9e3b79738884ce8a51635cf142f3290853a8777745e19f8db2c714d259f"
+    },
+    "zeta5/scripts/certificate_explicit.py": {
+      "bytes": 5959,
+      "sha256": "5a21f8775790dbf199969eb9cc9d2d604cb1401ebdbff584cc4e92377edeefce"
+    },
+    "zeta5/scripts/generate_analytic_grid.py": {
+      "bytes": 4334,
+      "sha256": "a3431065af9432b846af8c2417be5bd3d250800c24e9c6d1f273b3a622bd1583"
+    },
+    "zeta5/scripts/generate_arithmetic_cells.py": {
+      "bytes": 6246,
+      "sha256": "fd5de4f9a5fad225eb4ce360587e9926cdb6aa1ecf6cca8faa1940e91dfb78b8"
+    },
+    "zeta5/scripts/generate_arithmetic_partition.py": {
+      "bytes": 2055,
+      "sha256": "163d569abe99ef684227c30e34fe1ff66210e7d1cd500ca17cd135b5d3c6fb3d"
+    },
+    "zeta5/scripts/generate_extended_arithmetic.py": {
+      "bytes": 6524,
+      "sha256": "b3eae1a33ce5a892aa816c2d59bf25a4b3d35c19ca0ff7304083dc56ec8f2a2d"
+    },
+    "zeta5/scripts/package_verified.py": {
+      "bytes": 5002,
+      "sha256": "4d20174d1ec87c0b00a8ae16e2f517f4bf03cc28722592634fa64d115fa952ec"
+    },
+    "zeta5/scripts/snapshot_package.py": {
+      "bytes": 3900,
+      "sha256": "51fcd1a2b955f7d3b080b8df46f80b7566fc16e776e6b38742a33a5f64cbddf0"
+    },
+    "zeta5/zeta3_certificates/AngularAxiomAudit.lean": {
+      "bytes": 1090,
+      "sha256": "6aaf4e13758b8692bb15130d2ec24fce4b36bafadf7ee773e7f3daa5f8e47ef8"
+    },
+    "zeta5/zeta3_certificates/CheckFiniteProfile.lean": {
+      "bytes": 1070,
+      "sha256": "b90c02876b10abae13f2eb69a37d28c724e3c42ab3b0bbff8da91114f8993688"
+    },
+    "zeta5/zeta3_certificates/ContourBridgeAudit.lean": {
+      "bytes": 425,
+      "sha256": "a35ea25a3921b1bf177a646f4d92e1a2e9a28ecdf874c20b849c4c486d0a0736"
+    },
+    "zeta5/zeta3_certificates/ENDPOINT_AUDIT.md": {
+      "bytes": 12144,
+      "sha256": "fdcedd75be412024545904ca9a4a52c54ba973281ae5d5e3f654eb26b5b6199c"
+    },
+    "zeta5/zeta3_certificates/FINITE_SEMANTIC_AUDIT.md": {
+      "bytes": 5679,
+      "sha256": "9b7c14ba59cc5c0217f32154f802b05c6ae53655d0b3c233bb1d3364ec4bb6da"
+    },
+    "zeta5/zeta3_certificates/README.md": {
+      "bytes": 12857,
+      "sha256": "6712b011b104172123aa9135eedc5b2eab970068c3702608974a2f8bff4e60b4"
+    },
+    "zeta5/zeta3_certificates/SecondLayerAudit.lean": {
+      "bytes": 390,
+      "sha256": "1edaae75344ed6993a197bdc59a222b94cb0e06d03f3fc0f49bb337e6f72b19a"
+    },
+    "zeta5/zeta3_certificates/SecondTransportAudit.lean": {
+      "bytes": 321,
+      "sha256": "3be113af80a6f5139855a814e160f5bd833fd3e66012ec9446170b56f80a79ca"
+    },
+    "zeta5/zeta3_certificates/arb_simple.py": {
+      "bytes": 19558,
+      "sha256": "9a984897fafe44ca0e14ad28f9ad967250def85f960a160ea5ff882c70cca4ba"
+    },
+    "zeta5/zeta3_certificates/certificates/angular_axiom_audit.txt": {
+      "bytes": 1895,
+      "sha256": "56053ad493bfcec19668a922683232f5b8394e156344d0f2a79e36aefe6d27fc"
+    },
+    "zeta5/zeta3_certificates/certificates/arb_simple/export_validation.json": {
+      "bytes": 471,
+      "sha256": "68a050b1aefed9bc2248bc4a40ca13473e2fd55a670dc14679b9423bafde1222"
+    },
+    "zeta5/zeta3_certificates/certificates/arb_simple/summary.json": {
+      "bytes": 5484,
+      "sha256": "a521c83a4c90e4d64c1ca737380763fca8e92f49110a4d14d89b33250cf4993a"
+    },
+    "zeta5/zeta3_certificates/certificates/arb_simple/witnesses.jsonl": {
+      "bytes": 17765224,
+      "sha256": "f6bbf2672c1386d28cd6bba96b132d42b4c216c81413262955c8d5a9677ada7c"
+    },
+    "zeta5/zeta3_certificates/certificates/arb_simple_256/export_validation.json": {
+      "bytes": 471,
+      "sha256": "a6969e252ce6426b5101c0e67bc9d358d7ddc0e486feb5f79c43a2594eb83ef4"
+    },
+    "zeta5/zeta3_certificates/certificates/arb_simple_256/summary.json": {
+      "bytes": 6021,
+      "sha256": "92dc09f0e4509e8cb1117460532f2189779c7fe1c33ec1d8329ac6b1817553d4"
+    },
+    "zeta5/zeta3_certificates/certificates/arb_simple_256/witnesses.jsonl": {
+      "bytes": 21453552,
+      "sha256": "d8e9c8c345a3dc536451368b531a78cc656540b703e2faa0ab590706d5f340c6"
+    },
+    "zeta5/zeta3_certificates/certificates/contour_bridge_axioms.log": {
+      "bytes": 581,
+      "sha256": "0be171db22937e76ed8290fd75aa71349f18ff97ae8ee2dd9916fa56e0dbd925"
+    },
+    "zeta5/zeta3_certificates/certificates/dependency_identity_audit.json": {
+      "bytes": 3217,
+      "sha256": "04c92c143e59196631365976ebed3bee75a674563467bc338716fd949a9af4e4"
+    },
+    "zeta5/zeta3_certificates/certificates/finite_semantic_manifest.json": {
+      "bytes": 2997,
+      "sha256": "c0ddbb89b837c672e7a31265169e96054cabf503eed0a3324fa853d4b52b02af"
+    },
+    "zeta5/zeta3_certificates/certificates/hybrid_gate_tests.log": {
+      "bytes": 1858,
+      "sha256": "ad188a63c17b717dc62bc03a9a5e92f3d696a32ee2f992ce141efff5b2e67ca8"
+    },
+    "zeta5/zeta3_certificates/certificates/hybrid_validation/01_lean_version.log": {
+      "bytes": 106,
+      "sha256": "63f3e16bf0258e2cc0ab3010eb1830723df9bb85097b7b72b0137b9be25a78e9"
+    },
+    "zeta5/zeta3_certificates/certificates/hybrid_validation/02_arb_environment.log": {
+      "bytes": 162,
+      "sha256": "f10b85a3eb14a335a9b750c4618497c6370309413f870e1f66dad9b2e1b5c10e"
+    },
+    "zeta5/zeta3_certificates/certificates/hybrid_validation/03_stored_192_export.log": {
+      "bytes": 471,
+      "sha256": "9f053ddfbcdb1986801d1e1e5afdad9a82c359f4717b029e37e3207655f2e872"
+    },
+    "zeta5/zeta3_certificates/certificates/hybrid_validation/04_fresh_arb_256.log": {
+      "bytes": 758,
+      "sha256": "6150120f9f55058a0378d91e50b03461e167bd78dda9578e317b9d605806aa53"
+    },
+    "zeta5/zeta3_certificates/certificates/hybrid_validation/05_fresh_256_export.log": {
+      "bytes": 471,
+      "sha256": "b61a88d85f672a6160b633f875a54046ffd1bc655d70192a5baf4bd32f21dd6e"
+    },
+    "zeta5/zeta3_certificates/certificates/hybrid_validation/06_build_finite_profile.log": {
+      "bytes": 74228,
+      "sha256": "c067264462ac803972cb0d2786de150244b8dcc597f5921e11aed225f779b771"
+    },
+    "zeta5/zeta3_certificates/certificates/hybrid_validation/07_actual_lean_finite_profile.log": {
+      "bytes": 224,
+      "sha256": "bdb8543ab7599652e0b904c4bcd1a3e0c7be8f84f82464b257431710c2308434"
+    },
+    "zeta5/zeta3_certificates/certificates/hybrid_validation/08_build_final_modules.log": {
+      "bytes": 158632,
+      "sha256": "5fd826a8d421110f3a7dac1630fbc32f5b22fbdd9d810f9f2d850e52cfe23959"
+    },
+    "zeta5/zeta3_certificates/certificates/hybrid_validation/09_core_trust_zero.log": {
+      "bytes": 720,
+      "sha256": "4e8cd33b67e0e1ba5ee7f6b793ed0250b2e76e492fba7a21cc9c60e5f79f06fb"
+    },
+    "zeta5/zeta3_certificates/certificates/hybrid_validation/10_hybrid_trust_zero.log": {
+      "bytes": 1407,
+      "sha256": "6792d31f282babae80684d83eaec49a7dd380fccf65c0a90e79cd1352ccd2623"
+    },
+    "zeta5/zeta3_certificates/certificates/hybrid_validation/arb_256/summary.json": {
+      "bytes": 6023,
+      "sha256": "2685e6b212687e5a506bf87ac74b8dc1685b9e55dd2082cc9d41a37ea2be109d"
+    },
+    "zeta5/zeta3_certificates/certificates/hybrid_validation/arb_256/witnesses.jsonl": {
+      "bytes": 21453552,
+      "sha256": "d8e9c8c345a3dc536451368b531a78cc656540b703e2faa0ab590706d5f340c6"
+    },
+    "zeta5/zeta3_certificates/certificates/hybrid_validation/fresh_256_export.json": {
+      "bytes": 471,
+      "sha256": "b61a88d85f672a6160b633f875a54046ffd1bc655d70192a5baf4bd32f21dd6e"
+    },
+    "zeta5/zeta3_certificates/certificates/hybrid_validation/report.json": {
+      "bytes": 16496,
+      "sha256": "2fe00234a10f1de633fb5afcb67219b145782264dd664c505179d19195dd1d09"
+    },
+    "zeta5/zeta3_certificates/certificates/hybrid_validation/source_snapshot.json": {
+      "bytes": 53622,
+      "sha256": "333e87a8ceacfae00c9bbab6443463c4389a5ca78f5cdada253492edf36e7678"
+    },
+    "zeta5/zeta3_certificates/certificates/hybrid_validation/stored_192_export.json": {
+      "bytes": 471,
+      "sha256": "9f053ddfbcdb1986801d1e1e5afdad9a82c359f4717b029e37e3207655f2e872"
+    },
+    "zeta5/zeta3_certificates/certificates/kernel_pilot/ArithmeticKernel.lean.txt": {
+      "bytes": 630,
+      "sha256": "3c64463e69ac3b0b17f7fca6d43921fb147d1af346d390a0c33b2a9130c6605e"
+    },
+    "zeta5/zeta3_certificates/certificates/kernel_pilot/RESULT.txt": {
+      "bytes": 1287,
+      "sha256": "16c1d30d0e1f3410b07c8e6ec1a0d921da1c0b5f56fba0d867ea10a8eb343a8d"
+    },
+    "zeta5/zeta3_certificates/certificates/kernel_pilot/build.log": {
+      "bytes": 74186,
+      "sha256": "2b0f6490d395df2fe56ec05b5d44b4adf2e890a27634e876da6e85ee1fd28854"
+    },
+    "zeta5/zeta3_certificates/certificates/kernel_pilot/metrics.json": {
+      "bytes": 205,
+      "sha256": "d65b3645896a7ef3ff0b23373e01e102daa09632750755af82ba5294f9300b0a"
+    },
+    "zeta5/zeta3_certificates/certificates/second_layer_axioms.log": {
+      "bytes": 582,
+      "sha256": "30d8e37c3b7c09638763f23ef0106a28b138a8a79fc81e3ffc0e2a1c623f1a5e"
+    },
+    "zeta5/zeta3_certificates/certificates/second_transport_axioms.log": {
+      "bytes": 463,
+      "sha256": "1aa48ddff20ba75416ad26c8f3d9cb716d1129439c11292e6675f769e7f9f74f"
+    },
+    "zeta5/zeta3_certificates/certificates/semantic_export_check.log": {
+      "bytes": 471,
+      "sha256": "68a050b1aefed9bc2248bc4a40ca13473e2fd55a670dc14679b9423bafde1222"
+    },
+    "zeta5/zeta3_certificates/certificates/test_report.json": {
+      "bytes": 965,
+      "sha256": "69cfa243958caceaf6fbc61a0ad8107bee07ec472a66bf3856a9a8174f8cc414"
+    },
+    "zeta5/zeta3_certificates/check_arithmetic.py": {
+      "bytes": 5730,
+      "sha256": "adb276df9e9a3be55d3aa264e25f1edf724618628b1d1badb22b3923801d01e6"
+    },
+    "zeta5/zeta3_certificates/reference/arithmetic_cells.tsv": {
+      "bytes": 322854,
+      "sha256": "fcfa9c5d70e7f54d40c74296354a97b82b4a04b5be7db9afaa06ebe09878d049"
+    },
+    "zeta5/zeta3_certificates/reference/arithmetic_certificate.json": {
+      "bytes": 715,
+      "sha256": "46dd27fead92ebce1bbdc756bc2565a812fc4e4e922eda6f568c36c4c4230129"
+    },
+    "zeta5/zeta3_certificates/reference/exact_arithmetic_original.py": {
+      "bytes": 5651,
+      "sha256": "dc7b2b828fed0c2757e21bd9e59142a0475a462314541c0114d991dc1f0f98ab"
+    },
+    "zeta5/zeta3_certificates/requirements.txt": {
+      "bytes": 20,
+      "sha256": "4cef508304e84c21f73cf412712165dc26e40978cb784bc08a876948b559d90d"
+    },
+    "zeta5/zeta3_certificates/test_certificates.py": {
+      "bytes": 6695,
+      "sha256": "d8ea777b497507d6b37dcd36cc7c195f7fcca6bce119bd8c285ed80917572e8c"
+    },
+    "zeta5/zeta3_certificates/test_hybrid_gate.py": {
+      "bytes": 6018,
+      "sha256": "a1286ff65962041a3b3e5b1ca1678a9c01e8e3907829faa074e1bc0f15452718"
+    },
+    "zeta5/zeta3_certificates/verify_export.py": {
+      "bytes": 14016,
+      "sha256": "701ee257abd8f676a7ce164bf1ca89bccaa1cec2da0740ce7d15f52efcbcd0bd"
+    },
+    "zeta5/zeta3_certificates/verify_hybrid.py": {
+      "bytes": 19021,
+      "sha256": "90313790262654d100253dd7a213632b25d3f6af58d4a4eeeb24bb55f0d55664"
+    }
+  },
+  "final_gate_report_sha256": "2fe00234a10f1de633fb5afcb67219b145782264dd664c505179d19195dd1d09",
+  "new_lean_files": 262,
+  "original_files_preserved": 234,
+  "packaged_utc": "2026-11-19T09:32:37.321506+00:00",
+  "schema": "zeta3-hybrid-stage1-package-v1",
+  "scope": "Every payload file is hashed; this manifest does not hash itself. Toolchains, downloaded dependencies, and compiled caches are excluded.",
+  "source_snapshot_sha256": "333e87a8ceacfae00c9bbab6443463c4389a5ca78f5cdada253492edf36e7678",
+  "status": "completed hybrid verification; eight explicit finite numerical assertions"
+}

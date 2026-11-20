@@ -1,0 +1,21 @@
+import Zeta3.Certificate.ArithmeticFinite
+
+/-! Optional kernel reduction of the exact arithmetic certificate. This
+contains no external numerical assertion and does not change the hybrid
+runtime-check path. -/
+set_option maxRecDepth 200000
+set_option maxHeartbeats 0
+
+namespace Zeta3.Certificate
+
+theorem arithmeticFiniteCheck_kernel : arithmeticFiniteCheck=true := by
+  decide +kernel
+
+#print axioms arithmeticFiniteCheck_kernel
+
+theorem arithmeticFiniteEvidence_kernel : ArithmeticFiniteEvidence :=
+  arithmeticFiniteCheck_sound arithmeticFiniteCheck_kernel
+
+#print axioms arithmeticFiniteEvidence_kernel
+
+end Zeta3.Certificate

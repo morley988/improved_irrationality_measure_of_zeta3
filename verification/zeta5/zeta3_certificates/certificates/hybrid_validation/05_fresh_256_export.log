@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "record_counts": {
+    "header": 1,
+    "angular_charge": 128,
+    "root_bracket": 12180,
+    "guard_evaluation": 2,
+    "sample": 10240,
+    "finite_sum": 3,
+    "response_sample": 1025,
+    "target_checks": 1
+  },
+  "distinct_roots": 12180,
+  "final_rational_expression": "2225439040605380000/447428816560392051",
+  "wall_seconds": 6.234640598297119,
+  "scope": "Exact data consistency, not independent proof of Arb's real-function enclosures."
+}

@@ -1,0 +1,14 @@
+{"stage": "analytic", "samples": 8192, "lo": 4.813666930950274, "hi": 4.813666930950381}
+{"stage": "linear", "samples": 2048, "lo": 0.12274346147860661, "hi": 0.12274346147861964}
+{"stage": "response", "completed": 256, "panels": 1024}
+{"stage": "response", "completed": 512, "panels": 1024}
+{"stage": "response", "completed": 768, "panels": 1024}
+{"stage": "response", "completed": 1024, "panels": 1024}
+{
+  "passed": true,
+  "final_rational_expression": "2225439040605380000/447428816560392051",
+  "display_decimal": 4.973839319768086,
+  "root_brackets": 12180,
+  "witnesses": "/workspace/scratch/707ccee40cd4/zeta3_hybrid_stage1/repo/zeta5/zeta3_certificates/certificates/hybrid_validation/arb_256/witnesses.jsonl",
+  "wall_seconds": 12.152974367141724
+}

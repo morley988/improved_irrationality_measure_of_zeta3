@@ -1,0 +1,62 @@
+{
+  "Pearson_Zeta3_Measure_4_974.pdf": {
+    "bytes": 457695,
+    "sha256": "1f106f32a2ef1ea53f1942f6a2acd15a5e40f4d08f187a2a65f7e38fa58cafa9"
+  },
+  "Pearson_Zeta3_Measure_4_974.tex": {
+    "bytes": 63961,
+    "sha256": "6d9d81d68382e972588b2f81b875542820b93fdb26ab383af86c2f2dec71f74e"
+  },
+  "README.md": {
+    "bytes": 3795,
+    "sha256": "c9d618cbcba332f1456ab12824096ff1bf8e63e7f3f6806cd3717f9fe0c1f034"
+  },
+  "audits/cubic_arithmetic_audit.md": {
+    "bytes": 17198,
+    "sha256": "60fa066563bb051f3fb33ed20324ceeab2165cba54c1288b2463a1258050013e"
+  },
+  "audits/cubic_nullity_transfer_audit.md": {
+    "bytes": 8913,
+    "sha256": "2d294627f41ec3b1c44ecd7977be69feccbc22185fde710749fbffc5e424823f"
+  },
+  "certificates/analytic_certificate.json": {
+    "bytes": 2957,
+    "sha256": "3916d6f89d9664b8311372735c2d2e52f2b3e6a0b1aacc87db1d2778e8295f6e"
+  },
+  "certificates/arithmetic_cells.tsv": {
+    "bytes": 322854,
+    "sha256": "fcfa9c5d70e7f54d40c74296354a97b82b4a04b5be7db9afaa06ebe09878d049"
+  },
+  "certificates/arithmetic_certificate.json": {
+    "bytes": 715,
+    "sha256": "46dd27fead92ebce1bbdc756bc2565a812fc4e4e922eda6f568c36c4c4230129"
+  },
+  "certificates/environment.json": {
+    "bytes": 88,
+    "sha256": "c999859f9e2148e64b44b4304a93eb4269849852ccbb372c4eff5752710a53fe"
+  },
+  "certify_analytic.py": {
+    "bytes": 8962,
+    "sha256": "e42e12304467efb3fb00606146597834bff058160296a9b415c4980e1b6205fc"
+  },
+  "exact_arithmetic.py": {
+    "bytes": 5651,
+    "sha256": "dc7b2b828fed0c2757e21bd9e59142a0475a462314541c0114d991dc1f0f98ab"
+  },
+  "project_sources/zeta5_journal_publication.tex": {
+    "bytes": 162143,
+    "sha256": "3f4b65f680f5ff698866924547e0cd5c97d5780b24e3a930688c0826eb88d233"
+  },
+  "project_sources/zeta5_spectral_transfer.tex": {
+    "bytes": 396557,
+    "sha256": "d22d5b3eeddca5684972f6f09d8e103a073d949f22f95ca47652d1c12e11ec42"
+  },
+  "requirements.txt": {
+    "bytes": 38,
+    "sha256": "e1967be9f713962f90e4fab8dc8f35a6f39225de6d2c2a6aafff4010e313f5d8"
+  },
+  "verify.py": {
+    "bytes": 2308,
+    "sha256": "3fb1b77d706f41ae9f41f79a99d763a8f0ab15241135863ab623db59d368da8e"
+  }
+}

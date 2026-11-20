@@ -1,0 +1,7 @@
+import Zeta3.Analysis.ContourEigenbasis
+import Zeta3.Analysis.ContourUniformNorm
+#print axioms Zeta3.Analysis.determinantResponse_eq_contour_matrix
+#print axioms Zeta3.Analysis.determinantResponse_majorant_of_physical_orthonormal
+#print axioms Zeta3.Analysis.rationalContourWeight_norm_upper
+#print axioms Zeta3.Analysis.actual_physical_uniform_norm_bound
+#print axioms Zeta3.Analysis.determinantResponse_eigenvalue_majorant

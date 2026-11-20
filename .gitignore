@@ -1,0 +1,13 @@
+# LaTeX build artifacts
+/manuscript/*.aux
+/manuscript/*.log
+/manuscript/*.out
+/manuscript/*.toc
+/manuscript/*.fdb_latexmk
+/manuscript/*.fls
+/manuscript/*.synctex.gz
+/manuscript/*.bbl
+/manuscript/*.blg
+/verification/zeta5/.lake/
+/verification/zeta5/zeta3_certificates/.venv/
+__pycache__/

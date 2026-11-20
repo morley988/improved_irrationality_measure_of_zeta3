@@ -1,0 +1,21 @@
+{
+  "passed": true,
+  "tests_run": 11,
+  "tests": [
+    "__main__.CertificateTests.test_complete_export",
+    "__main__.CertificateTests.test_domain_and_bad_root_proposal_rejected",
+    "__main__.CertificateTests.test_exact_dyadic_endpoints_and_rational_input",
+    "__main__.CertificateTests.test_hull_and_nonfinite_rejection",
+    "__main__.CertificateTests.test_rational_schema_rejects_decimals",
+    "__main__.CertificateTests.test_rejects_changed_cell_profile",
+    "__main__.CertificateTests.test_rejects_inconsistent_sum",
+    "__main__.CertificateTests.test_rejects_optimized_reference_execution",
+    "__main__.CertificateTests.test_rejects_wrong_guard",
+    "__main__.CertificateTests.test_rejects_wrong_root_sign",
+    "__main__.CertificateTests.test_rejects_wrong_sample_weight"
+  ],
+  "failures": 0,
+  "errors": 0,
+  "wall_seconds": 16.143229484558105,
+  "scope": "Finite connector and export integrity tests, not mathematical theorem verification."
+}

@@ -1,0 +1,18 @@
+{
+  "s1": "2/25",
+  "s2": "8/25",
+  "delta": "51/50",
+  "Q": 500,
+  "scale": 1000000000000000000,
+  "initial_cells": 3599,
+  "accepted_cells": 6752,
+  "dynamic_splits": 3153,
+  "finite_area_upper": "1922202169226183949/500000000000000000",
+  "tail_upper": "51/6250",
+  "arithmetic_upper": "1926282169226183949/500000000000000000",
+  "arithmetic_upper_decimal": 3.852564338452368,
+  "rounding_error_upper": "211/31250000000000000",
+  "cell_sha256": "fcfa9c5d70e7f54d40c74296354a97b82b4a04b5be7db9afaa06ebe09878d049",
+  "wall_seconds": 6.373775482177734,
+  "notes": "Exact floors and every min/max crossing; no numerical quadrature. Universal dimension/parity second layer only; no optional cubic exact-rank caps."
+}

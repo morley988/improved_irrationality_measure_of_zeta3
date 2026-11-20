@@ -1,0 +1,2 @@
+10db711232f201c011f968cf6d9efc6b8e71f07207dfd398cdca998e373d6121  manuscript/zeta3_pearson_manuscript.pdf
+bf1bbf635bc1ea816f347c8915471e044ab8eb233acafb0644aef86589fc87c1  manuscript/zeta3_pearson_manuscript.tex

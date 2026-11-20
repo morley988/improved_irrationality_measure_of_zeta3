@@ -1,0 +1,9 @@
+{
+  "exit_code": -9,
+  "reason": "five_gib_rss_limit",
+  "elapsed_seconds": 8.561,
+  "peak_group_rss_bytes": 5407547392,
+  "max_rss_kib": 881556,
+  "user_seconds": 2.420392,
+  "system_seconds": 1.656318
+}

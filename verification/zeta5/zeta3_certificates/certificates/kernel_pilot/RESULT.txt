@@ -1,0 +1,21 @@
+The optional monolithic kernel-reduction pilot did not complete.
+
+The known-true closed Boolean arithmeticFiniteCheck was submitted to
+`decide +kernel`, without native_decide or Lean.ofReduceBool. The run used
+LEAN_NUM_THREADS=2, a seven-minute wall limit, and a conservative five-GiB
+aggregate process-group resident-memory limit. The memory guard stopped
+the build after 8.561 seconds when aggregate RSS reached 5,407,547,392 bytes.
+No kernel proof or ArithmeticKernel.olean was produced.
+
+Aggregate RSS may count shared imported pages more than once, so this
+benchmark does not establish a five-GiB requirement for the theorem itself.
+The largest reported child-process RSS was 881,556 KiB. This is evidence
+that this particular monolithic build/pilot configuration was unsuitable,
+not evidence of a false certificate. A chunked exact proof remains a
+separate future engineering task. The actual Lean runtime Boolean check
+already succeeded and remains the explicit hybrid arithmetic assertion.
+
+The optional source was moved out of the build namespace so the delivered
+project contains no unfinished optional Lean target. The hybrid theorem,
+its finite Boolean soundness theorem, and all mathematical implications
+are unchanged. See metrics.json and build.log for the exact outcome.
